@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="category"
+            type="com.denuinc.bookxchange.vo.Category" />
+        <variable
+            name="position"
+            type="int" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_category"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:elevation="@dimen/category_elevation"
+            app:imageId="@{category.imageId}" />
+
+        <TextView
+            android:id="@+id/tv_category_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/category_elevation"
+            android:textColor="@drawable/text_view_selector"
+            app:textId="@{category.descriptionId}" />
+
+    </LinearLayout>
+
+</layout>

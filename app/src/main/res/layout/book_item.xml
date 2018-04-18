@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="book" type="com.denuinc.bookxchange.vo.Book"/>
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardMaxElevation="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/image_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}"/>
+
+
+        <ImageView
+            android:id="@+id/btn_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding_small"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_favorite_selector"/>
+    </android.support.v7.widget.CardView>
+</layout>

@@ -1,0 +1,889 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 63,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Yd99BAAAQBAJ",
+      "etag": "iWs18OjdkW0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Yd99BAAAQBAJ",
+      "volumeInfo": {
+        "title": "Elon Musk",
+        "subtitle": "Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "authors": [
+          "Ashlee Vance"
+        ],
+        "publisher": "Harper Collins",
+        "publishedDate": "2015-05-19",
+        "description": "In the spirit of Steve Jobs and Moneyball, Elon Musk is both an illuminating and authorized look at the extraordinary life of one of Silicon Valley’s most exciting, unpredictable, and ambitious entrepreneurs—a real-life Tony Stark—and a fascinating exploration of the renewal of American invention and its new “makers.” Elon Musk spotlights the technology and vision of Elon Musk, the renowned entrepreneur and innovator behind SpaceX, Tesla, and SolarCity, who sold one of his Internet companies, PayPal, for $1.5 billion. Ashlee Vance captures the full spectacle and arc of the genius’s life and work, from his tumultuous upbringing in South Africa and flight to the United States to his dramatic technical innovations and entrepreneurial pursuits. Vance uses Musk’s story to explore one of the pressing questions of our age: can the nation of inventors and creators who led the modern world for a century still compete in an age of fierce global competition? He argues that Musk—one of the most unusual and striking figures in American business history—is a contemporary, visionary amalgam of legendary inventors and industrialists including Thomas Edison, Henry Ford, Howard Hughes, and Steve Jobs. More than any other entrepreneur today, Musk has dedicated his energies and his own vast fortune to inventing a future that is as rich and far-reaching as the visionaries of the golden age of science-fiction fantasy. Thorough and insightful, Elon Musk brings to life a technology industry that is rapidly and dramatically changing by examining the life of one of its most powerful and influential titans.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780062301260"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0062301268"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.17.17.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Yd99BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Yd99BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Yd99BAAAQBAJ&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Yd99BAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-Yd99BAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Yd99BAAAQBAJ&rdid=book-Yd99BAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Elon_Musk-sample-epub.acsm?id=Yd99BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Yd99BAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Written with exclusive access to Musk, his family, and his friends, the book traces his journey from his difficult upbringing in South Africa to his ascent to the pinnacle of the global business world."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ISm-jwEACAAJ",
+      "etag": "FZXxU/84tF4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ISm-jwEACAAJ",
+      "volumeInfo": {
+        "title": "Rocket Man: Elon Musk in His Own Words",
+        "authors": [
+          "Jessica Easto"
+        ],
+        "publisher": "Agate B2",
+        "publishedDate": "2017-02-14",
+        "description": "Elon Musk, the South African-born entrepreneur who made his first fortune with Internet companies such as PayPal, has risen to global prominence as the visionary CEO of both Tesla Motors and SpaceX, two companies with self-proclaimed missions to improve life as we know it and better secure the future of humanity. For the first time, the most insightful, thought-provoking, and revealing quotes from this entrepreneurial engineer have been compiled into a single book.Rocket Man: Elon Musk In His Own Words is a comprehensive guide to the inner workings of the man dubbed \"the real Tony Stark.\" Hundreds of his best quotes, comprising thoughts on business, clean energy, innovation, engineering, technology, space, electric vehicles, entrepreneurship, life lessons, and more, provide an intimate and direct look into Silicon Valley's most ambitious industrialist. Even with no prior experience in the complex, ultra-high-barrier-of-entry automotive and space industries, Musk has excelled. Tesla, the first successful American car startup in more than 90 years, received more than 325,000 reservations for its economical Model 3 in a single week--advancing the company’s cause to \"accelerate the advent of sustainable transport” via affordable, reliable electric vehicles. SpaceX, the first private company to launch, orbit, and recover arocket and dock at the International Space Station, has drastically reduced the cost of launching and manufacturing reusable spacecraft, which the company sees as the first step toward its \"ultimate goal\" of making life multiplanetary. In the words of Richard Branson, \"Whatever skeptics have said can’t be done, Elon has gone out and made real.\" How could a young man who at one time seemed like \"just\" another Internet entrepreneur have gone on to build two highly disruptive companies and innovate technologies related to everything from electric batteries to rocket manufacturing? There's no better way to learn than through his own words. This book curates Musk quotes from interviews, public appearances, online postings, company blogs, press releases, and more. What emerges is a 'word portrait' of the man whose companies' swift rise to the top will undoubtedly keep their status-quo competitors scrambling to keep up.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1572842148"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781572842144"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ISm-jwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ISm-jwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=ISm-jwEACAAJ&dq=elon+musk+intitleJ&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=ISm-jwEACAAJ&dq=elon+musk+intitleJ&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Rocket_Man_Elon_Musk_in_His_Own_Words.html?hl=&id=ISm-jwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ISm-jwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "There&#39;s no better way to learn than through his own words. This book curates Musk quotes from interviews, public appearances, online postings, company blogs, press releases, and more."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jtr3ThHeTEMC",
+      "etag": "J1mqoOPFGhc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jtr3ThHeTEMC",
+      "volumeInfo": {
+        "title": "The PayPal Wars",
+        "subtitle": "Battles with EBay, the Media, the Mafia, and the Rest of Planet Earth",
+        "authors": [
+          "Eric M. Jackson"
+        ],
+        "publisher": "World Ahead Publishing",
+        "publishedDate": "2004",
+        "description": "When PayPal launched its online payment service and set out to overhaul global currency markets it successfully weathered the dot-com bust and a fierce competitive struggle with the auction giant eBay. But hordes of government regulators, trial lawyers, and organized crime rings soon targeted PayPal for destruction, turning its quest to make Internet history into a desperate struggle for survival.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780974670102"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0974670103"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 344,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jtr3ThHeTEMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jtr3ThHeTEMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Jtr3ThHeTEMC&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=Jtr3ThHeTEMC&dq=elon+musk+intitleJ&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_PayPal_Wars.html?hl=&id=Jtr3ThHeTEMC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_PayPal_Wars-sample-epub.acsm?id=Jtr3ThHeTEMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jtr3ThHeTEMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "When PayPal launched its online payment service and set out to overhaul global currency markets it successfully weathered the dot-com bust and a fierce competitive struggle with the auction giant eBay."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u6NlCK_8h_4C",
+      "etag": "VtdrQ8IJnGw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u6NlCK_8h_4C",
+      "volumeInfo": {
+        "title": "Rocketeers",
+        "subtitle": "Visionaries and Daredevils of the New Sp",
+        "authors": [
+          "Michael Belfiore"
+        ],
+        "publisher": "Harper Collins",
+        "publishedDate": "2009-10-13",
+        "description": "“That this story is still unfolding makes it especially exciting to read. These men are still in their workshops, tinkering their way into orbit.” —David Gelles, FORBES On June 21, 2004, SpaceShipOne, built by aircraft designer Burt Rutan, entered space and ushered in the commercial space age. Investment capital began to pour into the new commercial spaceflight industry. Richard Branson’s VirginGalactic plans to ferry space tourists out of the atmosphere. Las Vegas hotelier Robert Bigelow is developing the world’s first commercial space station (i.e., space hotel). These space entrepreneurs, including Microsoft cofounder Paul Allen and Amazon.com founder Jeff Bezos, now see space as the next big thing. In Rocketeers, Michael Belfiore goes behind the scenes of this nascent industry, capturing its wild-west, anything-goes flavor. Likening his research to “hanging out in the Wright brothers’ barn,” Belfiore offers an inspiring and entertaining look at the people who are not afraid to make their bold dreams a reality. “The commercial space race is heating up so fast you need a cheat sheet to keep track of all the billionaires and gamblers vying to be the first private entrepreneur to blast paying customers into orbit. [Belfiore] does a stellar job introducing an intriguing cast of characters.” —Mark Horowitz, Wired “The privatization of space travel is an essential step toward realizing our cosmic destiny. In his engaging, highly readable Rocketeers, Michael Belfiore tells the fascinating story of the entrepreneurs who have already made it happen.” —Buzz Aldrin “A riveting, you-are-there account of how this ragtag collection of innovative thinkers, brave pilots, and bold visionaries is—right now—launching one of the most exciting new industries in history. Belfiore’s eloquent writing and exhaustive reporting really bring this mysterious, secretive world to life.” —Eric Adams, Popular Science",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780061877407"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0061877409"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u6NlCK_8h_4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u6NlCK_8h_4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=u6NlCK_8h_4C&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=u6NlCK_8h_4C&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-u6NlCK_8h_4C"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=u6NlCK_8h_4C&rdid=book-u6NlCK_8h_4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Rocketeers-sample-epub.acsm?id=u6NlCK_8h_4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u6NlCK_8h_4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "“That this story is still unfolding makes it especially exciting to read."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OMsvDwAAQBAJ",
+      "etag": "ZXc3S8MknF0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OMsvDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Brotopia",
+        "subtitle": "Breaking Up the Boys' Club of Silicon Valley",
+        "authors": [
+          "Emily Chang"
+        ],
+        "publisher": "Penguin",
+        "publishedDate": "2018-02-06",
+        "description": "Instant National Bestseller \"Excellent.\" --San Francisco Chronicle \"Brotopia is more than a business book. Silicon Valley holds extraordinary power over our present lives as well as whatever utopia (or nightmare) might come next.\" --New York Times Silicon Valley is a modern utopia where anyone can change the world. Unless you're a woman. For women in tech, Silicon Valley is not a fantasyland of unicorns, virtual reality rainbows, and 3D-printed lollipops, where millions of dollars grow on trees. It's a \"Brotopia,\" where men hold all the cards and make all the rules. Vastly outnumbered, women face toxic workplaces rife with discrimination and sexual harassment, where investors take meetings in hot tubs and network at sex parties. In this powerful exposé, Bloomberg TV journalist Emily Chang reveals how Silicon Valley got so sexist despite its utopian ideals, why bro culture endures despite decades of companies claiming the moral high ground (Don't Be Evil! Connect the World!)--and how women are finally starting to speak out and fight back. Drawing on her deep network of Silicon Valley insiders, Chang opens the boardroom doors of male-dominated venture capital firms like Kleiner Perkins, the subject of Ellen Pao's high-profile gender discrimination lawsuit, and Sequoia, where a partner once famously said they \"won't lower their standards\" just to hire women. Interviews with Facebook COO Sheryl Sandberg, YouTube CEO Susan Wojcicki, and former Yahoo! CEO Marissa Mayer--who got their start at Google, where just one in five engineers is a woman--reveal just how hard it is to crack the Silicon Ceiling. And Chang shows how women such as former Uber engineer Susan Fowler, entrepreneur Niniane Wang, and game developer Brianna Wu, have risked their careers and sometimes their lives to pave a way for other women. Silicon Valley's aggressive, misogynistic, work-at-all costs culture has shut women out of the greatest wealth creation in the history of the world. It's time to break up the boys' club. Emily Chang shows us how to fix this toxic culture--to bring down Brotopia, once and for all.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780735213548"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0735213542"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OMsvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OMsvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=OMsvDwAAQBAJ&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=OMsvDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-OMsvDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 16.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 16.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=OMsvDwAAQBAJ&rdid=book-OMsvDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 16990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 16990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Brotopia-sample-epub.acsm?id=OMsvDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OMsvDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It&#39;s time to break up the boys&#39; club. Emily Chang shows us how to fix this toxic culture--to bring down Brotopia, once and for all."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EI4zCgAAQBAJ",
+      "etag": "mh47CzOVnjc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EI4zCgAAQBAJ",
+      "volumeInfo": {
+        "title": "Alibaba",
+        "subtitle": "The House That Jack Ma Built",
+        "authors": [
+          "Duncan Clark"
+        ],
+        "publisher": "HarperCollins",
+        "publishedDate": "2016-04-12",
+        "description": "An engrossing, insider’s account of how a teacher built one of the world’s most valuable companies—rivaling Walmart and Amazon—and forever reshaped the global economy In just a decade and a half, Jack Ma, a man from modest beginnings who started out as an English teacher, founded Alibaba and built it into one of the world’s largest companies, an e-commerce empire on which hundreds of millions of Chinese consumers depend. In 2014, Alibaba’s $25 billion IPO was the largest global IPO in history. A Rockefeller of his time, who is courted by CEOs and presidents around the world, Jack is an icon for China’s booming private sector and the gatekeeper to hundreds of millions of middle-class consumers. Duncan Clark first met Jack in 1999 in the small apartment where Jack founded Alibaba. Granted unprecedented access to a wealth of new material, including exclusive interviews, Clark draws on his own experience as an early adviser to Alibaba as well as his two decades in China chronicling the Internet’s impact on the country to create an authoritative, compelling narrative account of Alibaba’s rise. How did Jack overcome his humble origins and early failures to achieve massive success with Alibaba? How did he outsmart rival entrepreneurs from both China and Silicon Valley? Can Alibaba maintain its 80 percent market share? As it forges ahead into finance and entertainment, are there limits to Alibaba’s ambitions? How does the Chinese government view its rise? Will Alibaba expand farther overseas, including into the United States? Clark tells Alibaba’s tale in the context of China’s momentous economic and social changes, illuminating an unlikely corporate titan as never before. Advance Praise For Alibaba “Anybody who thinks the Chinese just copy or steal technology from the West should read this book and think again. Jack Ma is part Bill Gates, part Steve Jobs, part Larry Page, part Sergey Brin, and part Mark Zuckerberg, all rolled into one.”—Sir Martin Sorrell, CEO of WPP “Duncan Clark gets into the heart and soul of Alibaba and its founder, Jack Ma, who deftly maneuvered through the discontinuities and barriers in China to create one of the greatest companies in the world. China has thrived under the leadership of Jack Ma. This book is a must-read for anyone who wants to understand the present China and the heartbeat of a great entrepreneur.”—Tim Draper, founder of Draper Associates, DFJ, and Draper University “This book provides excellent insight into the world of Jack Ma, perhaps the most famous of the leaders of the new economy in China. Duncan Clark is a real China ‘Old Hand,’ unique in his knowledge of the Jack Ma generation. This book is definitely on the short list for those who wish to understand the Chinese economy today.”—Ken Wilcox, Chairman Emeritus, Silicon Valley Bank",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780062413420"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0062413422"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "averageRating": 2,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EI4zCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=EI4zCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=EI4zCgAAQBAJ&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=EI4zCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-EI4zCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=EI4zCgAAQBAJ&rdid=book-EI4zCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Alibaba-sample-epub.acsm?id=EI4zCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EI4zCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Advance Praise For Alibaba “Anybody who thinks the Chinese just copy or steal technology from the West should read this book and think again."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "slOopgOFfVAC",
+      "etag": "Wx2fm71inxc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/slOopgOFfVAC",
+      "volumeInfo": {
+        "title": "The Startup Playbook",
+        "subtitle": "Secrets of the Fastest-Growing Startups from their Founding Entrepreneurs",
+        "authors": [
+          "David S. Kidder"
+        ],
+        "publisher": "Chronicle Books",
+        "publishedDate": "2012-12-14",
+        "description": "According to the Kauffman Index of Entrepreneurial Activity, more than 565,000 new businesses were created in 2010 in the United States alone—each one of them hoping to strike gold. The Startup Playbook will help them succeed. Going insider to insider with unprecedented access, New York Times bestselling author and Clickable CEO, David Kidder, shares the hard-hitting experiences of some of the world’s most influential entrepreneurs and CEOs, revealing their most closely held advice. Face-to-face interviews with 40 founders give readers key insights into what it took to build PayPal, LinkedIn, AOL, TED, Flickr, and many others into household names. Special sections include topics ranging from how to select the right idea to pursue to finding funding and overcoming inevitable obstacles. In an economy demanding change, The Startup Playbook is the go-to for entrepreneurs big and small.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452124049"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1452124043"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.7.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=slOopgOFfVAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=slOopgOFfVAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=slOopgOFfVAC&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=slOopgOFfVAC&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-slOopgOFfVAC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 26.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 14.57,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=slOopgOFfVAC&rdid=book-slOopgOFfVAC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 26990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14570000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Startup_Playbook-sample-epub.acsm?id=slOopgOFfVAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Startup_Playbook-sample-pdf.acsm?id=slOopgOFfVAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=slOopgOFfVAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "According to the Kauffman Index of Entrepreneurial Activity, more than 565,000 new businesses were created in 2010 in the United States alone—each one of them hoping to strike gold. The Startup Playbook will help them succeed."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JapXPgAACAAJ",
+      "etag": "cMbunAMH6og",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JapXPgAACAAJ",
+      "volumeInfo": {
+        "title": "Uninvited",
+        "authors": [
+          "Justine Musk"
+        ],
+        "publishedDate": "2008-01-18",
+        "description": "When Kelly Ruland's older brother Jasper returns to town a year and a half after running away, a mysterious motorcycle gang follows him home and causes trouble for the Ruland family.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1435223802"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781435223806"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 258,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JapXPgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JapXPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=JapXPgAACAAJ&dq=elon+musk+intitleJ&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=JapXPgAACAAJ&dq=elon+musk+intitleJ&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Uninvited.html?hl=&id=JapXPgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JapXPgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "When Kelly Ruland&#39;s older brother Jasper returns to town a year and a half after running away, a mysterious motorcycle gang follows him home and causes trouble for the Ruland family."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Vqe5DAAAQBAJ",
+      "etag": "auUoi/G7TQ4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Vqe5DAAAQBAJ",
+      "volumeInfo": {
+        "title": "Pause for Thought",
+        "authors": [
+          "BBC Radio 2"
+        ],
+        "publisher": "Watkins Media Limited",
+        "publishedDate": "2016-10-18",
+        "description": "Highly designed and vibrantly colourful, this collection of scripts from BBC Radio 2's Pause for Thoughtshowcases the incredible insights that the different faiths in the UK today offer to people of all religions - and to those of none. Together, these pieces provide a guide to finding happiness and achieving psychological wellness, despite all the challenges we face. In both the selection of pieces and in the contemporary design, the emphasis is on pausing - on stopping readers in their tracks and offering new ways of perceiving and connecting with each other. The book features an exciting range of commentators with great public profile, such as comedians Shazia Mirza and Paul Kerensa and ex-Communard Richard Coles, with a Foreword by the show's presenters, Chris Evans and Vanessa Feltz. Each of the book's seven chapters has a theme, reinforcing the overall inspirational and positive message of the book: Live Boldly, Challenge Perceptions, Understand, Connect, Love, Be Thankful, Let Go. A superb gift as well as an inspiring self-purchase.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781786780096"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1786780097"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Vqe5DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Vqe5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Vqe5DAAAQBAJ&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Vqe5DAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-Vqe5DAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.79,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Vqe5DAAAQBAJ&rdid=book-Vqe5DAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 10990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8790000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Pause_for_Thought-sample-epub.acsm?id=Vqe5DAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Pause_for_Thought-sample-pdf.acsm?id=Vqe5DAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Vqe5DAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Highly designed and vibrantly colourful, this collection of scripts from BBC Radio 2&#39;s Pause for Thoughtshowcases the incredible insights that the different faiths in the UK today offer to people of all religions - and to those of none."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OzSJgdwk5esC",
+      "etag": "A2zX36RHYFE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OzSJgdwk5esC",
+      "volumeInfo": {
+        "title": "Einstein",
+        "subtitle": "His Life and Universe",
+        "authors": [
+          "Walter Isaacson"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2008-09-04",
+        "description": "Einstein is the great icon of our age: the kindly refugee from oppression whose wild halo of hair, twinkling eyes, engaging humanity and extraordinary brilliance made his face a symbol and his name a synonym for genius. He was a rebel and nonconformist from boyhood days. His character, creativity and imagination were related, and they drove both his life and his science. In this marvellously clear and accessible narrative, Walter Isaacson explains how his mind worked and the mysteries of the universe that he discovered. Einstein's success came from questioning conventional wisdom and marvelling at mysteries that struck others as mundane. This led him to embrace a worldview based on respect for free spirits and free individuals. All of which helped make Einstein into a rebel but with a reverence for the harmony of nature, one with just the right blend of imagination and wisdom to transform our understanding of the universe. This new biography, the first since all of Einstein's papers have become available, is the fullest picture yet of one of the key figures of the twentieth century.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781847395894"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1847395899"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 704,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 53,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.10.10.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OzSJgdwk5esC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OzSJgdwk5esC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=OzSJgdwk5esC&printsec=frontcover&dq=elon+musk+intitleJ&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=OzSJgdwk5esC&dq=elon+musk+intitleJ&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Einstein.html?hl=&id=OzSJgdwk5esC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Einstein-sample-epub.acsm?id=OzSJgdwk5esC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OzSJgdwk5esC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is the first full biography of Albert Einstein since all of his papers have become available -- a fully realised portrait of this extraordinary human being, and great genius."
+      }
+    }
+  ]
+}

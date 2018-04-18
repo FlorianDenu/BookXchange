@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BookXchange</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search books</string>
+    <string name="cat_all">All</string>
+    <string name="cat_art_and_photo">Art</string>
+    <string name="cat_bio_and_memoirs">Biographies</string>
+    <string name="cat_bus_and_invest">Business</string>
+    <string name="cat_comics_and_novels">Comics</string>
+    <string name="cat_child">Children\'s Books</string>
+    <string name="cat_food">Cookbooks</string>
+    <string name="cat_history">History</string>
+    <string name="cat_lit_and_fiction">Fiction</string>
+    <string name="cat_myst_and_suspense">Mystery</string>
+    <string name="cat_sci_fi_and_fantasy">Sci-Fi</string>
+    <string name="cat_dec">Categorie</string>
+    <string name="favorites_activity_title">Favorites</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
