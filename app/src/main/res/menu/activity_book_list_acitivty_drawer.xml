@@ -8,31 +8,5 @@
             android:id="@+id/nav_favorites"
             android:icon="@drawable/ic_favorite_pressed"
             android:title="Favorites" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_art_default"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_art_default"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_art_default"
-            android:title="Tools" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_art_default"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_art_default"
-                android:title="Send" />
-        </menu>
-    </item>
-
 </menu>

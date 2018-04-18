@@ -11,7 +11,7 @@ import com.denuinc.bookxchange.vo.BookSearchResult;
  */
 @Database(entities = {
         Book.class,
-        BookSearchResult.class}, version = 6)
+        BookSearchResult.class}, version = 8)
 public abstract class BookXchangeDB extends RoomDatabase {
 
     abstract public BookDao bookDao();

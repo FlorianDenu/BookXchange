@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
+import java.util.List;
 
 
 /**
@@ -78,6 +79,8 @@ public class Book implements Serializable {
     public static class VolumeInfo implements Serializable {
         @SerializedName("title")
         public final String title;
+        @SerializedName("subtitle")
+        public final String subtitle;
         //TODO figure out how to handle intent
 //        @SerializedName("authors")
 //        public final List<String> authors;
@@ -87,6 +90,8 @@ public class Book implements Serializable {
 //        @Embedded(prefix = "volume_info")
 //        @NonNull
 //        public final IndustryIdentifiers industryIdentifiers;
+        @SerializedName("description")
+        public final String description;
         @SerializedName("readingModes")
         @Embedded(prefix = "volume_info")
         @NonNull
@@ -113,9 +118,11 @@ public class Book implements Serializable {
         public final String canonicalVolumeLink;
 
         public VolumeInfo(String title,
+                          String subtitle,
 //                          List<String> authors,
                           String publishedDate,
 //                          IndustryIdentifiers industryIdentifiers,
+                          String description,
                           ReadingModes readingModes,
                           String printType,
                           String maturityRating,
@@ -127,9 +134,11 @@ public class Book implements Serializable {
                           String infoLink,
                           String canonicalVolumeLink) {
             this.title = title;
+            this.subtitle = subtitle;
 //            this.authors = authors;
             this.publishedDate = publishedDate;
 //            this.industryIdentifiers = industryIdentifiers;
+            this.description = description;
             this.readingModes = readingModes;
             this.printType = printType;
             this.maturityRating = maturityRating;

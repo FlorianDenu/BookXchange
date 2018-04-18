@@ -1,0 +1,317 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 8,
+    "identityHash": "20c6bc1e45503746be57929eeaf56bdc",
+    "entities": [
+      {
+        "tableName": "Book",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`bookId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `googleBookId` TEXT, `etag` TEXT, `selfLink` TEXT, `isFavorite` INTEGER, `volume_info_title` TEXT, `volume_info_subtitle` TEXT, `volume_info_publishedDate` TEXT, `volume_info_description` TEXT, `volume_info_printType` TEXT, `volume_info_maturityRating` TEXT, `volume_info_allowAnonLogging` INTEGER NOT NULL, `volume_info_contentVersion` TEXT, `volume_info_language` TEXT, `volume_info_previewLink` TEXT, `volume_info_infoLink` TEXT, `volume_info_canonicalVolumeLink` TEXT, `volume_info_volume_infotext` TEXT NOT NULL, `volume_info_volume_infoimage` TEXT, `volume_info_volume_infosmallThumbnail` TEXT, `volume_info_volume_infothumbnail` TEXT, `book_sale_info_country` TEXT, `book_saleability` TEXT, `book_isEbook` INTEGER, `book_buyLink` TEXT, `book_access_info_country` TEXT, `book_viewability` TEXT, `book_embeddable` TEXT, `book_publicDomain` TEXT, `book_textToSpeechPermission` TEXT, `book_webReaderLink` TEXT, `book_accessViewStatus` TEXT, `book_quoteSharingAllowed` INTEGER NOT NULL, `book_access_infoepud_is_available` TEXT, `book_access_infoepud_download_link` TEXT, `book_access_infopdf_is_available` TEXT, `book_access_infopdf_download_link` TEXT, `book_epud_is_available` TEXT, `book_epud_download_link` TEXT, `book_pdf_is_available` TEXT, `book_pdf_download_link` TEXT, `book_textSnippet` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "bookId",
+            "columnName": "bookId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "googleBookId",
+            "columnName": "googleBookId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "etag",
+            "columnName": "etag",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "selfLink",
+            "columnName": "selfLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.title",
+            "columnName": "volume_info_title",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.subtitle",
+            "columnName": "volume_info_subtitle",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.publishedDate",
+            "columnName": "volume_info_publishedDate",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.description",
+            "columnName": "volume_info_description",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.printType",
+            "columnName": "volume_info_printType",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.maturityRating",
+            "columnName": "volume_info_maturityRating",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.allowAnonLogging",
+            "columnName": "volume_info_allowAnonLogging",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "volumeInfo.contentVersion",
+            "columnName": "volume_info_contentVersion",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.language",
+            "columnName": "volume_info_language",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.previewLink",
+            "columnName": "volume_info_previewLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.infoLink",
+            "columnName": "volume_info_infoLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.canonicalVolumeLink",
+            "columnName": "volume_info_canonicalVolumeLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.readingModes.text",
+            "columnName": "volume_info_volume_infotext",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "volumeInfo.readingModes.image",
+            "columnName": "volume_info_volume_infoimage",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.imageLinks.smallThumbnail",
+            "columnName": "volume_info_volume_infosmallThumbnail",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "volumeInfo.imageLinks.thumbnail",
+            "columnName": "volume_info_volume_infothumbnail",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "saleInfo.country",
+            "columnName": "book_sale_info_country",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "saleInfo.saleability",
+            "columnName": "book_saleability",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "saleInfo.isEbook",
+            "columnName": "book_isEbook",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "saleInfo.buyLink",
+            "columnName": "book_buyLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.country",
+            "columnName": "book_access_info_country",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.viewability",
+            "columnName": "book_viewability",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.embeddable",
+            "columnName": "book_embeddable",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.publicDomain",
+            "columnName": "book_publicDomain",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.textToSpeechPermission",
+            "columnName": "book_textToSpeechPermission",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.webReaderLink",
+            "columnName": "book_webReaderLink",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.accessViewStatus",
+            "columnName": "book_accessViewStatus",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.quoteSharingAllowed",
+            "columnName": "book_quoteSharingAllowed",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accessInfo.epub.isAvailable",
+            "columnName": "book_access_infoepud_is_available",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.epub.downloadLink",
+            "columnName": "book_access_infoepud_download_link",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.pdf.isAvailable",
+            "columnName": "book_access_infopdf_is_available",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "accessInfo.pdf.downloadLink",
+            "columnName": "book_access_infopdf_download_link",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "epub.isAvailable",
+            "columnName": "book_epud_is_available",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "epub.downloadLink",
+            "columnName": "book_epud_download_link",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "pdf.isAvailable",
+            "columnName": "book_pdf_is_available",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "pdf.downloadLink",
+            "columnName": "book_pdf_download_link",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "searchInfo.textSnippet",
+            "columnName": "book_textSnippet",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "bookId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "BookSearchResult",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`query` TEXT NOT NULL, `googleBookIds` TEXT, `totalCount` INTEGER NOT NULL, `next` INTEGER, PRIMARY KEY(`query`))",
+        "fields": [
+          {
+            "fieldPath": "query",
+            "columnName": "query",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "googleBookIds",
+            "columnName": "googleBookIds",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "totalCount",
+            "columnName": "totalCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "next",
+            "columnName": "next",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "query"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"20c6bc1e45503746be57929eeaf56bdc\")"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.denuinc.bookxchange.vo.Book"/>
+        <variable name="book" type="Book"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+            <TextView
+                android:id="@+id/description"
+                style="@style/DescriptionStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{book.volumeInfo.description}"
+                android:padding="@dimen/padding_medium"/>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/image_book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}"
+            android:alpha="0.1"
+            android:background="@color/colorPrimary"
+            android:scaleType="centerCrop"/>
+
+    </FrameLayout>
+</layout>

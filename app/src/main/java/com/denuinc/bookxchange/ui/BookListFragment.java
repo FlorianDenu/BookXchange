@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingComponent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -25,6 +27,8 @@ import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.binding.FragmentDataBindingComponent;
 import com.denuinc.bookxchange.databinding.BookListFragmentBinding;
 import com.denuinc.bookxchange.di.Injectable;
+import com.denuinc.bookxchange.ui.BookDetails.BookDetailFragment;
+import com.denuinc.bookxchange.ui.BookDetails.BookDetailsActivity;
 import com.denuinc.bookxchange.ui.common.ListOfBookItemDecoration;
 import com.denuinc.bookxchange.ui.common.NavigationController;
 import com.denuinc.bookxchange.vo.Book;
@@ -108,7 +112,11 @@ public class BookListFragment extends Fragment implements Injectable, BookListAd
 
     @Override
     public void onClick(Book book) {
-        Toast.makeText(getContext(), "This is the book selected " + book.volumeInfo.title, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getActivity(), BookDetailsActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(BookDetailFragment.BOOK_EXTRA, book);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
 
     @Override

@@ -1,4 +1,7 @@
 package com.denuinc.bookxchange.ui;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -15,9 +18,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.ui.common.NavigationController;
+import com.denuinc.bookxchange.utils.ActivityUtils;
 import com.denuinc.bookxchange.vo.Category;
 
 import javax.inject.Inject;
@@ -45,8 +50,8 @@ public class BookListActivity extends AppCompatActivity
         }
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show());
+        fab.setOnClickListener(view -> Snackbar.make(view, R.string.add_book_details, Snackbar.LENGTH_LONG)
+                .show());
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -92,16 +97,15 @@ public class BookListActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            ActivityUtils.activityUtils().displayInformation(this,
+                    getString(R.string.information_title),
+                    getString(R.string.information_details),
+                    (dialog, which) -> ActivityUtils.activityUtils().emailIntent(getApplicationContext()),
+                    (dialog, which) -> Toast.makeText(BookListActivity.this, ":)", Toast.LENGTH_SHORT).show());
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 

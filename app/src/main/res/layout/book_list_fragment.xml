@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             style="@style/AVLoadingIndicatorView.Large"
             android:visibility="visible"
-            app:indicatorName="PacmanIndicator"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
             app:indicatorColor="@color/colorAccent"
             android:layout_centerInParent="true"/>
 

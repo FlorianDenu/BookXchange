@@ -54,6 +54,7 @@
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <service android:name=".widget.FetchDataService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:name=".ui.BookDetails.BookDetailsActivity" android:parentActivityName=".ui.BookListActivity" />
     </application>
 
 </manifest>

@@ -20,7 +20,8 @@ import dagger.android.AndroidInjectionModule;
         AppModule.class,
         BookListActivityModule.class,
         FavoritesActivityModule.class,
-        FetchDataServiceModule.class
+        FetchDataServiceModule.class,
+        BookDetailsActivityModule.class
 })
 public interface AppComponent {
     @Component.Builder

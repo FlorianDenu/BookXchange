@@ -1,5 +1,6 @@
 package com.denuinc.bookxchange.di;
 
+import com.denuinc.bookxchange.ui.BookDetails.BookDetailFragment;
 import com.denuinc.bookxchange.ui.BookListFragment;
 import com.denuinc.bookxchange.ui.FavoritesFragment;
 
@@ -18,4 +19,7 @@ public abstract class FragmentBuildersModule {
 
     @ContributesAndroidInjector
     abstract FavoritesFragment contributeFavoritesFragment();
+
+    @ContributesAndroidInjector
+    abstract BookDetailFragment contributeBookDetailFragment();
 }
