@@ -47,9 +47,9 @@ public class ActivityUtils {
     }
 
     public void emailIntent(Context context) {
-        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_EMAIL, R.string.personal_email_address);
+        intent.putExtra(Intent.EXTRA_EMAIL, new String [] { context.getString(R.string.personal_email_address)});
         intent.putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.email_subject));
         Intent mailer = Intent.createChooser(intent, context.getString(R.string.app_name ) + context.getString(R.string.email));
         context.startActivity(mailer);
