@@ -34,6 +34,15 @@ import dagger.android.support.HasSupportFragmentInjector;
 
 /**
  * Created by Florian on 2/27/2018.
+ *
+ * In order to realise this project, i used the following web site to learn more about android architecture components and data binding
+ *
+ * https://developer.android.com/topic/libraries/architecture/index.html
+ *
+ * https://github.com/googlesamples/android-architecture
+ *
+ *https://github.com/googlesamples/android-architecture-components
+ * 
  */
 
 public class BookListActivity extends AppCompatActivity
