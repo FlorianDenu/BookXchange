@@ -35,5 +35,6 @@
     <string name="category">Category</string>
     <string name="image_empty">Image empty</string>
     <string name="widget_item">Widget item</string>
+    <string name="adbMobKey">ca-app-pub-4155488081906822~9715508733</string>
 
 </resources>

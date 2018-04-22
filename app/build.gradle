@@ -68,6 +68,7 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
     implementation "com.android.support:support-v4:$supportLibraryVersion"
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.android.gms:play-services-ads:15.0.0'
 
     // Api request
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
