@@ -2,7 +2,6 @@ package com.denuinc.bookxchange.api;
 
 
 import android.support.annotation.NonNull;
-import android.util.Log;
 
 import com.denuinc.bookxchange.vo.Book;
 import com.google.gson.annotations.SerializedName;

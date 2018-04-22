@@ -1,10 +1,8 @@
 package com.denuinc.bookxchange.ui;
 
 import android.annotation.SuppressLint;
-import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
-import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingComponent;
 import android.databinding.DataBindingUtil;
@@ -21,7 +19,6 @@ import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.binding.FragmentDataBindingComponent;
@@ -30,10 +27,10 @@ import com.denuinc.bookxchange.di.Injectable;
 import com.denuinc.bookxchange.ui.BookDetails.BookDetailFragment;
 import com.denuinc.bookxchange.ui.BookDetails.BookDetailsActivity;
 import com.denuinc.bookxchange.ui.common.ListOfBookItemDecoration;
-import com.denuinc.bookxchange.ui.common.NavigationController;
 import com.denuinc.bookxchange.vo.Book;
 import com.denuinc.bookxchange.ui.common.BookListAdapter;
 import com.denuinc.bookxchange.utils.AutoClearedValue;
+import com.denuinc.bookxchange.vo.Categories;
 import com.denuinc.bookxchange.vo.Category;
 
 import java.util.List;
@@ -63,7 +60,7 @@ public class BookListFragment extends Fragment implements Injectable, BookListAd
 
     private Boolean isScrooled = false;
 
-    private String query = "subject:science+fiction";
+    private String query = new Categories().getCategories().get(4).getSearch();
 
     @Nullable
     @Override
@@ -114,7 +111,7 @@ public class BookListFragment extends Fragment implements Injectable, BookListAd
     public void onClick(Book book) {
         Intent intent = new Intent(getActivity(), BookDetailsActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putSerializable(BookDetailFragment.BOOK_EXTRA, book);
+        bundle.putParcelable(BookDetailFragment.BOOK_EXTRA, book);
         intent.putExtras(bundle);
         startActivity(intent);
     }

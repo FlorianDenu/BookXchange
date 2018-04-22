@@ -9,11 +9,11 @@ import com.denuinc.bookxchange.vo.BookSearchResult;
 /**
  * Created by Florian on 3/8/2018.
  */
-@Database(entities = {
-        Book.class,
-        BookSearchResult.class}, version = 8)
-public abstract class BookXchangeDB extends RoomDatabase {
-
-    abstract public BookDao bookDao();
-
-}
+//@Database(entities = {
+//        Book.class,
+//        BookSearchResult.class}, version = 8)
+//public abstract class BookXchangeDB extends RoomDatabase {
+//
+//    abstract public BookDao bookDao();
+//
+//}

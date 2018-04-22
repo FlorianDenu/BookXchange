@@ -46,7 +46,7 @@ public class BookDetailFragment extends Fragment implements Injectable {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         Bundle bundle = getArguments();
-        Book book = (Book) bundle.getSerializable(BOOK_EXTRA);
+        Book book = (Book) bundle.getParcelable(BOOK_EXTRA);
         binding.get().setBook(book);
     }
 }

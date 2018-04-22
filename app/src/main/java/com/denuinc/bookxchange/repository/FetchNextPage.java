@@ -2,12 +2,17 @@ package com.denuinc.bookxchange.repository;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
+import android.content.ContentResolver;
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.net.Uri;
 import android.util.Log;
 
 import com.denuinc.bookxchange.api.ApiResponse;
 import com.denuinc.bookxchange.api.BookSearchResponse;
 import com.denuinc.bookxchange.api.GoogleBookService;
-import com.denuinc.bookxchange.db.BookXchangeDB;
+import com.denuinc.bookxchange.db.BookProvider;
+import com.denuinc.bookxchange.vo.Book;
 import com.denuinc.bookxchange.vo.BookSearchResult;
 import com.denuinc.bookxchange.vo.Resource;
 
@@ -25,20 +30,30 @@ public class FetchNextPage implements Runnable {
     private final MutableLiveData<Resource<Boolean>> liveData = new MutableLiveData<>();
     private final String query;
     private final GoogleBookService googleBookService;
-    private final BookXchangeDB db;
+    private final ContentResolver provider;
 
-    public FetchNextPage(String query, GoogleBookService googleBookService, BookXchangeDB db) {
+    public FetchNextPage(String query, GoogleBookService googleBookService, ContentResolver provider) {
         this.query = query;
         this.googleBookService = googleBookService;
-        this.db = db;
+        this.provider = provider;
     }
 
     @Override
     public void run() {
-        BookSearchResult current = db.bookDao().findSearchResult(query);
-        if(current == null) {
-            liveData.postValue(null);
-            return;
+        Cursor cursor = provider.query(Uri.parse("content://" + BookProvider.PROVIDER_NAME + "/bookSearch"), null, " bookQuery LIKE " + "'%" + query.substring(query.lastIndexOf(':') + 1) + "%'", null, null);
+        BookSearchResult current = new BookSearchResult(query, new ArrayList<>(), 0, 0);
+        try {
+            while (cursor.moveToNext()) {
+                String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.BOOK_QUERY));
+                int totalCount = cursor.getInt(cursor.getColumnIndex(BookProvider.TOTAL_COUNT));
+                int index = cursor.getInt(cursor.getColumnIndex(BookProvider.INDEX));
+                current.googleBookIds.add(googleBookId);
+                current.next = index;
+                current.totalCount = totalCount;
+                current.googleBookIds.add(googleBookId);
+            }
+        } finally {
+            cursor.close();
         }
         Integer nextPage = current.next;
         Log.d("", "This is the value of the next page " + nextPage);
@@ -51,20 +66,27 @@ public class FetchNextPage implements Runnable {
                     .searchBook(query, nextPage).execute();
             ApiResponse<BookSearchResponse> apiResponse = new ApiResponse<>(response);
             if (apiResponse.isSuccessful()) {
-                // we merge all repo ids into 1 list so that it is easier to fetch the result list.
                 List<String> ids = new ArrayList<>();
                 ids.addAll(current.googleBookIds);
-                //noinspection ConstantConditions
                 ids.addAll(apiResponse.body.getBookIds());
-                BookSearchResult merged = new BookSearchResult(query, ids,
-                        apiResponse.body.getTotal(), nextPage);
-                try {
-                    db.beginTransaction();
-                    db.bookDao().insert(merged);
-                    db.bookDao().insertBooks(apiResponse.body.getItems());
-                    db.setTransactionSuccessful();
-                } finally {
-                    db.endTransaction();
+                for (Book book : apiResponse.body.getItems()) {
+                    ContentValues contentValues = new ContentValues();
+                    contentValues.put(BookProvider.GOOGLE_BOOK_ID, book.googleBookId);
+                    contentValues.put(BookProvider.TITLE, book.volumeInfo.title);
+                    contentValues.put(BookProvider.DESCRIPTION, book.volumeInfo.description);
+                    contentValues.put(BookProvider.IS_FAVORITE, book.isFavorite);
+                    contentValues.put(BookProvider.SMALL_THUMBNAIL, book.volumeInfo.imageLinks.smallThumbnail);
+                    contentValues.put(BookProvider.THUMBNAIL, book.volumeInfo.imageLinks.thumbnail);
+                    provider.insert(BookProvider.CONTENT_URI, contentValues);
+                }
+
+                for (String id : ids) {
+                    ContentValues contentValues = new ContentValues();
+                    contentValues.put(BookProvider.BOOK_QUERY, query);
+                    contentValues.put(BookProvider.SEARCH_GOOGLE_BOOKS_ID, id);
+                    contentValues.put(BookProvider.TOTAL_COUNT, apiResponse.body.getTotal());
+                    contentValues.put(BookProvider.INDEX, nextPage);
+                    provider.insert(Uri.parse("content://" + BookProvider.PROVIDER_NAME + "/bookSearch"), contentValues);
                 }
                 if (current.totalCount > nextPage + 10) {
                     liveData.postValue(Resource.success(true));

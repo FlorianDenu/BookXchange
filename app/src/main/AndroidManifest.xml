@@ -55,6 +55,10 @@
         <service android:name=".widget.FetchDataService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:name=".ui.BookDetails.BookDetailsActivity" android:parentActivityName=".ui.BookListActivity" />
+
+        <provider
+            android:authorities="com.denuinc.bookxchange.db.BookProvider"
+            android:name=".db.BookProvider"/>
     </application>
 
 </manifest>

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 import android.app.Service;
 
+import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.di.AppInjector;
 
 import javax.inject.Inject;

@@ -17,6 +17,7 @@ import com.denuinc.bookxchange.vo.Resource;
  */
 
 public abstract class NetworkBoundResource<ResultType, RequestType> {
+
     private final AppExecutors appExecutors;
 
     private final MediatorLiveData<Resource<ResultType>> result = new MediatorLiveData<>();
@@ -34,7 +35,7 @@ public abstract class NetworkBoundResource<ResultType, RequestType> {
                 result.addSource(dbSource, newData -> setValue(Resource.success(newData)));
             }
         });
-    }
+     }
 
     @MainThread
     private void setValue(Resource<ResultType> newValue) {

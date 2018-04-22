@@ -3,12 +3,13 @@ package com.denuinc.bookxchange.widget;
 import android.appwidget.AppWidgetManager;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.support.v4.app.JobIntentService;
 import android.support.v4.content.LocalBroadcastManager;
 
 import com.denuinc.bookxchange.AppExecutors;
-import com.denuinc.bookxchange.db.BookDao;
+import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.vo.Book;
 
 import java.util.ArrayList;
@@ -24,9 +25,6 @@ public class FetchDataService extends JobIntentService {
     public static ArrayList<Book> books;
 
     static final int JOB_ID = 1000;
-
-    @Inject
-    BookDao bookDao;
 
     @Inject
     AppExecutors appExecutors;
@@ -57,11 +55,27 @@ public class FetchDataService extends JobIntentService {
     }
 
     private void fetchData() {
-        if (bookDao == null) return;
         books = new ArrayList<>();
         appExecutors.diskIO().execute(() -> {
-            // If no favorite, load all the books
-            ArrayList<Book> bs = bookDao.loadFavoritesList().size() > 0 ? new ArrayList<>(bookDao.loadFavoritesList()) : new ArrayList<>(bookDao.loadAllBooks());
+            Cursor cursor = getContentResolver().query(BookProvider.CONTENT_URI, null, null, null, null, null);
+            ArrayList<Book> bs = new ArrayList<>();
+            try {
+                assert cursor != null;
+                while (cursor.moveToNext()) {
+                    String id = cursor.getString(cursor.getColumnIndex(BookProvider._ID));
+                    String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.GOOGLE_BOOK_ID));
+                    String title = cursor.getString(cursor.getColumnIndex(BookProvider.TITLE));
+                    String description  = cursor.getString(cursor.getColumnIndex(BookProvider.DESCRIPTION));
+                    Boolean favorite = cursor.getInt(cursor.getColumnIndex(BookProvider.IS_FAVORITE)) == 1;
+                    String smallThumbnail = cursor.getString(cursor.getColumnIndex(BookProvider.SMALL_THUMBNAIL));
+                    String thumbnail = cursor.getString(cursor.getColumnIndex(BookProvider.THUMBNAIL));
+                    Book book = new Book(id, googleBookId, new Book.VolumeInfo(title, description, new Book.VolumeInfo.ImageLinks(smallThumbnail, thumbnail)), favorite);
+                    bs.add(book);
+                }
+            } finally {
+                assert cursor != null;
+                cursor.close();
+            }
             books.addAll(bs);
             Intent widgetUpdateIntent = new Intent();
             widgetUpdateIntent.setAction(BookWidget.DATA_FETCHED);

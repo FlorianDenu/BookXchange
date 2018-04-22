@@ -66,18 +66,14 @@ public class BookWidget extends AppWidgetProvider {
 
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.book_widget);
 
-        if (FetchDataService.books != null) {
-            ArrayList<String> thumnails = new ArrayList<>();
-            for (Book book: FetchDataService.books) {
-                thumnails.add(book.volumeInfo.imageLinks.thumbnail);
-            }
-            intent.putStringArrayListExtra("data", thumnails);
-        }
+        Bundle bundle = new Bundle();
+        bundle.putParcelableArrayList("data", FetchDataService.books);
+        intent.putExtras(bundle);
 
         remoteViews.setRemoteAdapter(R.id.stack_view, intent);
         remoteViews.setEmptyView(R.id.stack_view, R.id.empty_view);
 
-        //TODO set the aciton on click
+
         Intent toastIntent = new Intent(context, BookWidget.class);
         toastIntent.setAction(BookWidget.TOAST_ACTION);
         toastIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);

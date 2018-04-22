@@ -36,14 +36,14 @@ public class BookDetailsActivity extends AppCompatActivity implements HasSupport
         super.onCreate(savedInstanceState);
         setContentView(R.layout.book_details_activity);
         if (getIntent() != null) {
-            Book book = (Book) getIntent().getSerializableExtra(BookDetailFragment.BOOK_EXTRA);
+            Book book = getIntent().getParcelableExtra(BookDetailFragment.BOOK_EXTRA);
             if (getSupportActionBar() != null) {
                 getSupportActionBar().setTitle(book.volumeInfo.title);
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             }
             BookDetailFragment bookDetailFragment = new BookDetailFragment();
             Bundle bundle = new Bundle();
-            bundle.putSerializable(BookDetailFragment.BOOK_EXTRA, book);
+            bundle.putParcelable(BookDetailFragment.BOOK_EXTRA, book);
             bookDetailFragment.setArguments(bundle);
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.book_details_fragment_container, bookDetailFragment, BookDetailFragment.TAG)

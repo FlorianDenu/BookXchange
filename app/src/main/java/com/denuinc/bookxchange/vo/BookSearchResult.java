@@ -21,9 +21,9 @@ public class BookSearchResult {
     @NonNull
     public final String query;
     public final List<String> googleBookIds;
-    public final int totalCount;
+    public int totalCount;
     @Nullable
-    public final Integer next;
+    public Integer next;
 
     public BookSearchResult(@NonNull String query, List<String> googleBookIds, int totalCount, @Nullable Integer next) {
         this.query = query;

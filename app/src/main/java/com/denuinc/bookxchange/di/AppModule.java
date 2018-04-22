@@ -1,12 +1,9 @@
 package com.denuinc.bookxchange.di;
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
 
-import com.denuinc.bookxchange.BookXchangeApp;
 import com.denuinc.bookxchange.api.GoogleBookService;
-import com.denuinc.bookxchange.db.BookDao;
-import com.denuinc.bookxchange.db.BookXchangeDB;
+import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.utils.LiveDataCallAdapterFactory;
 
 import javax.inject.Singleton;
@@ -31,12 +28,4 @@ class AppModule {
                 .build()
                 .create(GoogleBookService.class);
     }
-
-    @Singleton @Provides
-    BookXchangeDB provideDb(Application app) {
-        return Room.databaseBuilder(app, BookXchangeDB.class, "bookXchange.db").fallbackToDestructiveMigration().build();
-    }
-
-    @Singleton @Provides
-    BookDao provideBookDao(BookXchangeDB db) { return db.bookDao(); }
 }

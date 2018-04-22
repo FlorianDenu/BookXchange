@@ -37,7 +37,7 @@ public class StackWidgetService extends RemoteViewsService {
 
 class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
 
-    private ArrayList<String> post;
+    private ArrayList<Book> post;
 
     private Context context;
 
@@ -47,9 +47,10 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
         this.context = context;
         appWidgetId = intent.getIntExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, AppWidgetManager.INVALID_APPWIDGET_ID);
 
-        if (intent.hasExtra("data")) {
+        if (intent.getExtras() != null) {
             post = new ArrayList<>();
-            ArrayList<String> intentBooks =  intent.getStringArrayListExtra("data");
+            Bundle bundle = intent.getExtras();
+            ArrayList<Book> intentBooks =  bundle.getParcelableArrayList("data");
             post.addAll(intentBooks);
         } else {
             populateListItem();
@@ -59,9 +60,7 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
     private void populateListItem() {
 
         if (FetchDataService.books != null) {
-            for (Book book: FetchDataService.books) {
-                post.add(book.volumeInfo.imageLinks.smallThumbnail);
-            }
+            post.addAll(FetchDataService.books);
         } else {
             post = new ArrayList<>();
         }
@@ -74,7 +73,7 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
     public void onDataSetChanged() {
         if (FetchDataService.books != null) {
             for (Book book: FetchDataService.books) {
-                post.add(book.volumeInfo.imageLinks.smallThumbnail);
+                post.add(book);
             }
         }
     }
@@ -96,12 +95,10 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
         intent.putExtras(bundle);
         rv.setOnClickFillInIntent(R.id.click_item, intent);
         try {
-            Bitmap bitmap = Glide.with(context.getApplicationContext()).asBitmap().load(post.get(position)).into(400,400).get();
+            Bitmap bitmap = Glide.with(context.getApplicationContext()).asBitmap().load(post.get(position).volumeInfo.imageLinks.smallThumbnail).into(400,400).get();
 
             rv.setImageViewBitmap(R.id.widget_image_thumbnail, bitmap);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
 

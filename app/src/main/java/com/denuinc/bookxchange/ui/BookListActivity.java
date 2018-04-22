@@ -1,13 +1,22 @@
 package com.denuinc.bookxchange.ui;
 import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.DialogInterface;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.CursorLoader;
+import android.support.v4.content.Loader;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,9 +27,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
 import com.denuinc.bookxchange.R;
+import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.ui.common.NavigationController;
 import com.denuinc.bookxchange.utils.ActivityUtils;
 import com.denuinc.bookxchange.vo.Category;
@@ -68,6 +79,56 @@ public class BookListActivity extends AppCompatActivity
             bookListFragment = (BookListFragment) getSupportFragmentManager().findFragmentByTag(BookListFragment.TAG);
         }
         navigationController.navigateToBookList(bookListFragment);
+
+
+    }
+
+    private void rubish() {
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(BookProvider.GOOGLE_BOOK_ID, "googleBookId2134");
+        contentValues.put(BookProvider.TITLE , "title");
+        contentValues.put(BookProvider.DESCRIPTION , "description");
+        contentValues.put(BookProvider.IS_FAVORITE , 1);
+        contentValues.put(BookProvider.SMALL_THUMBNAIL , "smalthims");
+
+        Uri uri = getContentResolver().insert(BookProvider.CONTENT_URI, contentValues);
+        Toast.makeText(getBaseContext(), uri.toString(), Toast.LENGTH_LONG).show();
+
+        String url = BookProvider.PROVIDER_NAME;
+        getSupportLoaderManager().initLoader(0, null, new LoaderManager.LoaderCallbacks<Cursor>() {
+
+            @NonNull
+            @Override
+            public Loader onCreateLoader(int id, @Nullable Bundle args) {
+                return new CursorLoader(getApplicationContext(), BookProvider.CONTENT_URI, null, null, null, null);
+            }
+
+            @Override
+            public void onLoadFinished(@NonNull Loader loader, Cursor cursor) {
+                Log.d("Inisde on load finished", "This is the vlaue of the data this is the cursor size " + cursor.getCount());
+                try {
+                    while (cursor.moveToNext()) {
+                        String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.GOOGLE_BOOK_ID));
+                        String title = cursor.getString(cursor.getColumnIndex(BookProvider.TITLE));
+                        String description  = cursor.getString(cursor.getColumnIndex(BookProvider.DESCRIPTION));
+                        String favorite = cursor.getString(cursor.getColumnIndex(BookProvider.IS_FAVORITE));
+                        String thumbnail = cursor.getString(cursor.getColumnIndex(BookProvider.SMALL_THUMBNAIL));
+                        Log.d("book", googleBookId + " " + title  + " " + description + " " + favorite  + " " + thumbnail);
+                    }
+                } finally {
+                    cursor.close();
+                }
+            }
+
+
+            @Override
+            public void onLoaderReset(@NonNull Loader loader) {
+
+            }
+        });
+//        Cursor c = managedQuery(Uri.parse(url), null,null, null, "title");
+
+
     }
 
     @Override

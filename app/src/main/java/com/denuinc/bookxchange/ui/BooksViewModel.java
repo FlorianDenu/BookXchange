@@ -50,8 +50,6 @@ public class BooksViewModel extends ViewModel {
         });
 
         this.favorites = new MediatorLiveData<>();
-
-        favorites = new MediatorLiveData<>();
         favorites.setValue(null);
         LiveData<List<Book>> books = bookRepository.getFavorites();
         favorites.addSource(books, favorites::setValue);
