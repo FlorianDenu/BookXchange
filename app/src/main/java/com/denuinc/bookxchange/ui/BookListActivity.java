@@ -16,14 +16,16 @@ import android.view.MenuItem;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.denuinc.bookxchange.BookXchangeApp;
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.ui.common.NavigationController;
 import com.denuinc.bookxchange.utils.ActivityUtils;
 import com.denuinc.bookxchange.vo.Category;
-import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 import javax.inject.Inject;
 
@@ -42,6 +44,8 @@ public class BookListActivity extends AppCompatActivity
     @Inject
     NavigationController navigationController;
     private BookListFragment bookListFragment;
+
+    private Tracker tracker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +72,8 @@ public class BookListActivity extends AppCompatActivity
 
         if (savedInstanceState == null) {
             bookListFragment = new BookListFragment();
+            BookXchangeApp analyticsApplication = (BookXchangeApp) getApplication();
+            this.tracker = analyticsApplication.getDefaultTracker();
         } else {
             bookListFragment = (BookListFragment) getSupportFragmentManager().findFragmentByTag(BookListFragment.TAG);
         }
@@ -77,6 +83,14 @@ public class BookListActivity extends AppCompatActivity
         AdView adView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        tracker.setScreenName("Image~" + BookListActivity.class.getSimpleName());
+        tracker.send(new HitBuilders.ScreenViewBuilder().build());
     }
 
     @Override
@@ -135,6 +149,11 @@ public class BookListActivity extends AppCompatActivity
     @Override
     public void categorySelected(Category category) {
         bookListFragment.fetchCategory(category);
+        tracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Change category to " + category.getSearch())
+                .build()
+        );
     }
 
     @Override

@@ -6,6 +6,8 @@ import android.app.Service;
 
 import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.di.AppInjector;
+import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.Tracker;
 
 import javax.inject.Inject;
 
@@ -25,6 +27,8 @@ public class BookXchangeApp extends Application implements HasActivityInjector, 
     DispatchingAndroidInjector<Activity> dispatchingAndroidInjector;
     @Inject
     DispatchingAndroidInjector<Service> dispatchingServiceInjector;
+    private static GoogleAnalytics sAnalytics;
+    private static Tracker sTracker;
 
     @Override
     public void onCreate() {
@@ -33,6 +37,7 @@ public class BookXchangeApp extends Application implements HasActivityInjector, 
             Timber.plant(new Timber.DebugTree());
         }
         AppInjector.init(this);
+        sAnalytics = GoogleAnalytics.getInstance(this);
     }
 
     @Override
@@ -43,5 +48,14 @@ public class BookXchangeApp extends Application implements HasActivityInjector, 
     @Override
     public AndroidInjector<Service> serviceInjector() {
         return dispatchingServiceInjector;
+    }
+
+    synchronized public Tracker getDefaultTracker() {
+        // To enable debug logging use: adb shell setprop log.tag.GAv4 DEBUG
+        if (sTracker == null) {
+            sTracker = sAnalytics.newTracker(R.xml.global_tracker);
+        }
+
+        return sTracker;
     }
 }

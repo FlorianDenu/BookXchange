@@ -24,7 +24,7 @@ public class ApiResponseTest {
     @Test
     public void success() {
         ApiResponse<String> apiResponse = new ApiResponse<String>(Response.success("test"));
-        Assert.assertEquals(apiResponse.errorMessage, "test");
+        Assert.assertEquals(apiResponse.errorMessage, null);
         Assert.assertEquals(apiResponse.body, "test");
         Assert.assertEquals(apiResponse.code, 200);
     }
