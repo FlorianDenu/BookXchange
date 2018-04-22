@@ -32,7 +32,7 @@ public class FetchNextPage implements Runnable {
     private final GoogleBookService googleBookService;
     private final ContentResolver provider;
 
-    public FetchNextPage(String query, GoogleBookService googleBookService, ContentResolver provider) {
+    FetchNextPage(String query, GoogleBookService googleBookService, ContentResolver provider) {
         this.query = query;
         this.googleBookService = googleBookService;
         this.provider = provider;
@@ -40,9 +40,9 @@ public class FetchNextPage implements Runnable {
 
     @Override
     public void run() {
-        Cursor cursor = provider.query(Uri.parse("content://" + BookProvider.PROVIDER_NAME + "/bookSearch"), null, " bookQuery LIKE " + "'%" + query.substring(query.lastIndexOf(':') + 1) + "%'", null, null);
         BookSearchResult current = new BookSearchResult(query, new ArrayList<>(), 0, 0);
-        try {
+        try (Cursor cursor = provider.query(Uri.parse("content://" + BookProvider.PROVIDER_NAME + "/bookSearch"), null, " bookQuery LIKE " + "'%" + query.substring(query.lastIndexOf(':') + 1) + "%'", null, null)) {
+            assert cursor != null;
             while (cursor.moveToNext()) {
                 String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.BOOK_QUERY));
                 int totalCount = cursor.getInt(cursor.getColumnIndex(BookProvider.TOTAL_COUNT));
@@ -52,8 +52,6 @@ public class FetchNextPage implements Runnable {
                 current.totalCount = totalCount;
                 current.googleBookIds.add(googleBookId);
             }
-        } finally {
-            cursor.close();
         }
         Integer nextPage = current.next;
         Log.d("", "This is the value of the next page " + nextPage);
@@ -66,8 +64,8 @@ public class FetchNextPage implements Runnable {
                     .searchBook(query, nextPage).execute();
             ApiResponse<BookSearchResponse> apiResponse = new ApiResponse<>(response);
             if (apiResponse.isSuccessful()) {
-                List<String> ids = new ArrayList<>();
-                ids.addAll(current.googleBookIds);
+                List<String> ids = new ArrayList<>(current.googleBookIds);
+                assert apiResponse.body != null;
                 ids.addAll(apiResponse.body.getBookIds());
                 for (Book book : apiResponse.body.getItems()) {
                     ContentValues contentValues = new ContentValues();

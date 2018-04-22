@@ -29,5 +29,11 @@
     <string name="information_details">I took the opportunity of this open project to create the foundation of an application that i will continue to work on. Learning and implementing the architecture components took me more time then expected, and this is why this application might look not finished. If you want more information about me or my application send me an email</string>
     <string name="add_book_details">This option will be enabled in the next version of the application</string>
     <string name="name">Florian Denu</string>
+    <string name="book_details_background">Book details background</string>
+    <string name="card_view_book">Card view book</string>
+    <string name="empty_widget">Empty widget</string>
+    <string name="category">Category</string>
+    <string name="image_empty">Image empty</string>
+    <string name="widget_item">Widget item</string>
 
 </resources>

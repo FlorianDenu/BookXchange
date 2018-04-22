@@ -12,7 +12,7 @@ import dagger.android.ContributesAndroidInjector;
  */
 
 @Module
-public abstract class FragmentBuildersModule {
+abstract class FragmentBuildersModule {
 
     @ContributesAndroidInjector
     abstract BookListFragment contributeBookListFragment();

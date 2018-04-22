@@ -3,34 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="com.denuinc.bookxchange.vo.Book"/>
-        <variable name="book" type="Book"/>
+
+        <import type="com.denuinc.bookxchange.vo.Book" />
+
+        <variable
+            name="book"
+            type="Book" />
     </data>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="100dp">
+            android:layout_marginBottom="@dimen/book_details_bottom_margin">
+
             <TextView
                 android:id="@+id/description"
                 style="@style/DescriptionStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@{book.volumeInfo.description}"
-                android:padding="@dimen/padding_medium"/>
+                android:padding="@dimen/padding_medium"
+                android:text="@{book.volumeInfo.description}" />
         </ScrollView>
 
         <ImageView
             android:id="@+id/image_book"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}"
             android:alpha="0.1"
             android:background="@color/colorPrimary"
-            android:scaleType="centerCrop"/>
+            android:contentDescription="@string/book_details_background"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}" />
 
     </FrameLayout>
 </layout>

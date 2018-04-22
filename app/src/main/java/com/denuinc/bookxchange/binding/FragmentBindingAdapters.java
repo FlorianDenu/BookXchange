@@ -14,10 +14,10 @@ import javax.inject.Inject;
  */
 
 public class FragmentBindingAdapters {
-    final Fragment fragment;
+    private final Fragment fragment;
 
     @Inject
-    public FragmentBindingAdapters(Fragment fragment) {
+    FragmentBindingAdapters(Fragment fragment) {
         this.fragment = fragment;
     }
 

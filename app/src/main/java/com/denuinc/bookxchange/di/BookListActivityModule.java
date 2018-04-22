@@ -10,7 +10,7 @@ import dagger.android.ContributesAndroidInjector;
  */
 
 @Module
-public abstract class BookListActivityModule {
+abstract class BookListActivityModule {
     @ContributesAndroidInjector(modules = FragmentBuildersModule.class)
     abstract BookListActivity contributeBookListActivity();
 }

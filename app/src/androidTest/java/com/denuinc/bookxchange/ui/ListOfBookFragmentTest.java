@@ -2,14 +2,12 @@ package com.denuinc.bookxchange.ui;
 
 
 import android.arch.lifecycle.MutableLiveData;
-import android.support.test.espresso.contrib.RecyclerViewActions;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.SingleFragmentActivity;
 import com.denuinc.bookxchange.binding.FragmentBindingAdapters;
-import com.denuinc.bookxchange.ui.common.NavigationController;
 import com.denuinc.bookxchange.utils.EspressoTestUtils;
 import com.denuinc.bookxchange.utils.TaskExecutorWithIdlingResourceRule;
 import com.denuinc.bookxchange.utils.TestUtils;
@@ -23,15 +21,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.CoreMatchers.not;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
@@ -70,7 +66,8 @@ public class ListOfBookFragmentTest {
 
     @Test
     public void search() {
-        verify(viewModel).setQuery("subject:all");
+        onView(withId(R.id.avi)).check(matches(isDisplayed()));
+        verify(viewModel).setQuery("subject:novel");
         results.postValue(Resource.loading(null));
         onView(withId(R.id.avi)).check(matches(isDisplayed()));
     }
@@ -78,7 +75,7 @@ public class ListOfBookFragmentTest {
     @Test
     public void loadResults() {
         Book book = TestUtils.createBook("book123");
-        results.postValue(Resource.success(Arrays.asList(book)));
+        results.postValue(Resource.success(Collections.singletonList(book)));
         onView(withId(R.id.avi)).check(matches(not(isDisplayed())));
     }
 

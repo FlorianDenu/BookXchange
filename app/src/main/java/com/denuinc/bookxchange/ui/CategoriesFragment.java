@@ -1,33 +1,21 @@
 package com.denuinc.bookxchange.ui;
 
-import android.app.Notification;
 import android.content.Context;
 import android.databinding.DataBindingComponent;
 import android.databinding.DataBindingUtil;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.LinearSnapHelper;
-import android.support.v7.widget.RecyclerView;
-import android.util.AttributeSet;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.binding.FragmentDataBindingComponent;
 import com.denuinc.bookxchange.databinding.CategoriesLayoutBinding;
-import com.denuinc.bookxchange.databinding.CategoryItemBinding;
 import com.denuinc.bookxchange.ui.common.CategoryAdapter;
 import com.denuinc.bookxchange.ui.common.CenterLayoutManager;
 import com.denuinc.bookxchange.utils.AutoClearedValue;
@@ -45,7 +33,6 @@ public class CategoriesFragment extends Fragment implements CategoryAdapter.Cate
     private AutoClearedValue<CategoriesLayoutBinding> binding;
     private OnCategorieSelectedListener onCategorieSelectedListener;
     private Categories categories;
-    private CenterLayoutManager layoutManager;
 
 
     @Nullable
@@ -78,7 +65,7 @@ public class CategoriesFragment extends Fragment implements CategoryAdapter.Cate
 
     private void initRecyclerView() {
         final LinearSnapHelper snapHelper = new LinearSnapHelper();
-        layoutManager = new CenterLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        CenterLayoutManager layoutManager = new CenterLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
         binding.get().recyclerViewCategories.setLayoutManager(layoutManager);
         snapHelper.attachToRecyclerView(binding.get().recyclerViewCategories);
         binding.get().recyclerViewCategories.setOnFlingListener(snapHelper);

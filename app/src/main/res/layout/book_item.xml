@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
@@ -17,7 +18,8 @@
             android:id="@+id/image_thumbnail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}"/>
+            app:imageUrl="@{book.volumeInfo.imageLinks.thumbnail}"
+            android:contentDescription="@string/card_view_book" />
 
 
         <ImageView
@@ -27,6 +29,8 @@
             android:layout_gravity="right"
             android:padding="@dimen/padding_small"
             android:backgroundTint="@android:color/transparent"
-            android:src="@drawable/ic_favorite_selector"/>
+            android:src="@drawable/ic_favorite_selector"
+            android:contentDescription="@string/favorites_activity_title"
+            tools:ignore="RtlHardcoded" />
     </android.support.v7.widget.CardView>
 </layout>

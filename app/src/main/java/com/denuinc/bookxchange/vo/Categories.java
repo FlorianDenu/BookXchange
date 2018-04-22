@@ -32,6 +32,7 @@ public class Categories {
         return categories;
     }
 
+    @SuppressWarnings("unused")
     public void setCategories(List<Category> categories) {
         this.categories = categories;
     }

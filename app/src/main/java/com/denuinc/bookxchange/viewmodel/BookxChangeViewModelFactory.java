@@ -19,7 +19,7 @@ public class BookxChangeViewModelFactory implements ViewModelProvider.Factory {
     private final Map<Class<? extends ViewModel>, Provider<ViewModel>> creators;
 
     @Inject
-    public BookxChangeViewModelFactory(Map<Class<? extends ViewModel>, Provider<ViewModel>> creators) {
+    BookxChangeViewModelFactory(Map<Class<? extends ViewModel>, Provider<ViewModel>> creators) {
         this.creators = creators;
     }
 

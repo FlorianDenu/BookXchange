@@ -3,19 +3,17 @@ package com.denuinc.bookxchange.widget;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.widget.RemoteViews;
 
-import com.bumptech.glide.request.target.AppWidgetTarget;
 import com.denuinc.bookxchange.R;
-import com.denuinc.bookxchange.ui.BookListActivity;
+import com.denuinc.bookxchange.ui.BookDetails.BookDetailFragment;
+import com.denuinc.bookxchange.ui.BookDetails.BookDetailsActivity;
 import com.denuinc.bookxchange.vo.Book;
 
 import java.util.ArrayList;
@@ -26,11 +24,11 @@ import java.util.Objects;
  */
 public class BookWidget extends AppWidgetProvider {
 
-    public static final String TOAST_ACTION = "com.denuinc.bookXchange.widget.TOAST_ACTION";
+    public static final String DETAIL_ACTION = "com.denuinc.bookXchange.widget.DETAIL_ACTION";
     public static final String EXTRA_ITEM = "com.denuinc.bookXchange.widget.EXTRA_ITEM";
     public static final String DATA_FETCHED = "com.denuinc.bookXchange.widget.DATA_FETCHED";
 
-    static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
+    static void updateAppWidget(Context context,
                                 int appWidgetId) {
 
         Intent intent = new Intent(context, FetchDataService.class);
@@ -43,7 +41,7 @@ public class BookWidget extends AppWidgetProvider {
 
         LocalBroadcastManager.getInstance(context).registerReceiver(this, new IntentFilter(DATA_FETCHED));
         for (int appWidgetId : appWidgetIds) {
-            updateAppWidget(context, appWidgetManager, appWidgetId);
+            updateAppWidget(context, appWidgetId);
         }
         super.onUpdate(context, appWidgetManager, appWidgetIds);
     }
@@ -66,22 +64,21 @@ public class BookWidget extends AppWidgetProvider {
 
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.book_widget);
 
-        Bundle bundle = new Bundle();
-        bundle.putParcelableArrayList("data", FetchDataService.books);
-        intent.putExtras(bundle);
+        if (FetchDataService.books != null) {
+            ArrayList<String> thumnails = new ArrayList<>();
+            for (Book book: FetchDataService.books) {
+                thumnails.add(book.volumeInfo.imageLinks.thumbnail);
+            }
+            intent.putStringArrayListExtra("data", thumnails);
+        }
 
         remoteViews.setRemoteAdapter(R.id.stack_view, intent);
         remoteViews.setEmptyView(R.id.stack_view, R.id.empty_view);
 
-
-        Intent toastIntent = new Intent(context, BookWidget.class);
-        toastIntent.setAction(BookWidget.TOAST_ACTION);
-        toastIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
-        PendingIntent toastPendingIntent = PendingIntent.getBroadcast(context,
-                0, toastIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-        remoteViews.setPendingIntentTemplate(R.id.stack_view,
-                toastPendingIntent);
-
+        Intent detailIntent = new Intent(context, BookWidget.class);
+        detailIntent.setAction(BookWidget.DETAIL_ACTION);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, detailIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        remoteViews.setPendingIntentTemplate(R.id.stack_view, pendingIntent);
         return remoteViews;
     }
 
@@ -98,16 +95,14 @@ public class BookWidget extends AppWidgetProvider {
             appWidgetManager.updateAppWidget(appWidgetId, remoteViews);
         }
 
-        if (intent.getAction().equals(TOAST_ACTION)) {
-            // The click form the widget item is received here
-            int appWidgetId = intent.getIntExtra(
-                    AppWidgetManager.EXTRA_APPWIDGET_ID,
-                    AppWidgetManager.INVALID_APPWIDGET_ID);
+        //noinspection ConstantConditions
+        if (intent.getAction().equals(DETAIL_ACTION)) {
             int viewIndex = intent.getIntExtra(EXTRA_ITEM, 0);
-            context.startActivity(new Intent(context, BookListActivity.class)
-                    .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK).putExtra(
-                            "click",
-                            "Clicked Movie is \n --- " + viewIndex));
+            Intent detailsIntent = new Intent(context, BookDetailsActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putParcelable(BookDetailFragment.BOOK_EXTRA, FetchDataService.books.get(viewIndex));
+            detailsIntent.putExtras(bundle);
+            context.startActivity(detailsIntent);
         }
     }
 }

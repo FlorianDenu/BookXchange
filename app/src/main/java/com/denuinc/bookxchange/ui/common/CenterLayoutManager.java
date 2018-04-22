@@ -6,8 +6,13 @@ import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
+/**
+ * Created by Florian on 2/27/2018.
+ */
+
 public class CenterLayoutManager extends LinearLayoutManager {
 
+    @SuppressWarnings("unused")
     public CenterLayoutManager(Context context) {
         super(context);
     }
@@ -16,6 +21,7 @@ public class CenterLayoutManager extends LinearLayoutManager {
         super(context, orientation, reverseLayout);
     }
 
+    @SuppressWarnings("unused")
     public CenterLayoutManager(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }

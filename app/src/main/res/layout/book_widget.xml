@@ -1,19 +1,25 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/widget_margin"
-    android:id="@+id/click_item">
+    android:padding="@dimen/widget_margin">
 
-    <StackView
-        android:id="@+id/stack_view"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:foregroundGravity="center"
-        android:loopViews="true"/>
+        android:layout_height="match_parent">
+
+        <StackView
+            android:id="@+id/stack_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center"
+            android:loopViews="true" />
+    </RelativeLayout>
+
     <ImageView
         android:id="@+id/empty_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foregroundGravity="center"
-        android:background="@drawable/wow_such_empty" />
+        android:background="@drawable/wow_such_empty"
+        android:contentDescription="@string/empty_widget"
+        android:foregroundGravity="center" />
 </FrameLayout>

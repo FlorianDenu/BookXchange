@@ -11,6 +11,7 @@ public class AutoClearedValue<T> {
     private T value;
     public AutoClearedValue(Fragment fragment, T value) {
         FragmentManager fragmentManager = fragment.getFragmentManager();
+        assert fragmentManager != null;
         fragmentManager.registerFragmentLifecycleCallbacks(
                 new FragmentManager.FragmentLifecycleCallbacks() {
                     @Override

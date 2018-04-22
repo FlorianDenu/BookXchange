@@ -1,15 +1,9 @@
 package com.denuinc.bookxchange.api;
 
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.util.ArrayMap;
 import android.util.Log;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import retrofit2.Response;
 
@@ -41,6 +35,8 @@ public class ApiResponse<T> {
             String message = null;
             if (response.errorBody() != null) {
                 try {
+                    assert response.errorBody() != null;
+                    //noinspection ConstantConditions
                     message = response.errorBody().string();
                 } catch (IOException ignored) {
                     Log.e(TAG, "error while parsing response");

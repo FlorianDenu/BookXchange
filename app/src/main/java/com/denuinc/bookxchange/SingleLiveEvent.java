@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * Created by Florian on 3/5/2018.
  */
 
+@SuppressWarnings("unused")
 public class SingleLiveEvent<T> extends MutableLiveData<T> {
 
     private static final String TAG = "SingleLiveEvent";

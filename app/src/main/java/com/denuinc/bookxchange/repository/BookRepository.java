@@ -17,14 +17,13 @@ import com.denuinc.bookxchange.api.BookSearchResponse;
 import com.denuinc.bookxchange.api.GoogleBookService;
 import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.utils.AbsentLiveData;
-import com.denuinc.bookxchange.utils.RateLimiter;
 import com.denuinc.bookxchange.vo.Book;
 import com.denuinc.bookxchange.vo.BookSearchResult;
 import com.denuinc.bookxchange.vo.Resource;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.Objects;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -41,10 +40,8 @@ public class BookRepository {
     private MediatorLiveData<List<Book>> favorites;
     private final ContentResolver bookProvider;
 
-    private RateLimiter<String> bookListRateLimit = new RateLimiter<>(10, TimeUnit.MINUTES);
-
     @Inject
-    public BookRepository(GoogleBookService googleBookService, AppExecutors appExecutors, Application app) {
+    BookRepository(GoogleBookService googleBookService, AppExecutors appExecutors, Application app) {
         this.googleBookService = googleBookService;
         this.appExecutors = appExecutors;
         this.favorites = new MediatorLiveData<>();
@@ -63,8 +60,8 @@ public class BookRepository {
 
     private LiveData<List<Book>> loadFavorite() {
         List<Book> fav = new ArrayList<>();
-        Cursor cursor = bookProvider.query(BookProvider.CONTENT_URI, null, " isFavorite = " + "1", null, null);
-        try {
+        try (Cursor cursor = bookProvider.query(BookProvider.CONTENT_URI, null, " isFavorite = " + "1", null, null)) {
+            assert cursor != null;
             while (cursor.moveToNext()) {
                 String id = cursor.getString(cursor.getColumnIndex(BookProvider._ID));
                 String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.GOOGLE_BOOK_ID));
@@ -76,8 +73,6 @@ public class BookRepository {
                 Book book = new Book(id, googleBookId, new Book.VolumeInfo(title, description, new Book.VolumeInfo.ImageLinks(smallThumbnail, thumbnail)), favorite);
                 fav.add(book);
             }
-        } finally {
-            cursor.close();
         }
 
         MutableLiveData<List<Book>> mBooks = new MutableLiveData<>();
@@ -90,18 +85,24 @@ public class BookRepository {
 
         appExecutors.diskIO().execute(() -> {
             Cursor cursor = bookProvider.query(BookProvider.CONTENT_URI, null, " id = " + "'" + book.googleBookId + "'", null, null);
-            while (cursor.moveToNext()) {
-                Boolean favorite = cursor.getInt(cursor.getColumnIndex(BookProvider.IS_FAVORITE)) == 1;
-                ContentValues contentValues = new ContentValues();
-                contentValues.put(BookProvider.IS_FAVORITE, !favorite);
-                bookProvider.update(BookProvider.CONTENT_URI, contentValues, " id = " + "'" + book.googleBookId + "'", null);
-                if (!favorite) {
-                    book.isFavorite = true;
-                    favorites.getValue().add(book);
-                } else {
-                    book.isFavorite = false;
-                    favorites.getValue().remove(book);
+            try {
+                assert cursor != null;
+                while (cursor.moveToNext()) {
+                    Boolean favorite = cursor.getInt(cursor.getColumnIndex(BookProvider.IS_FAVORITE)) == 1;
+                    ContentValues contentValues = new ContentValues();
+                    contentValues.put(BookProvider.IS_FAVORITE, !favorite);
+                    bookProvider.update(BookProvider.CONTENT_URI, contentValues, " id = " + "'" + book.googleBookId + "'", null);
+                    if (!favorite) {
+                        book.isFavorite = true;
+                        Objects.requireNonNull(favorites.getValue()).add(book);
+                    } else {
+                        book.isFavorite = false;
+                        Objects.requireNonNull(favorites.getValue()).remove(book);
+                    }
                 }
+            } finally {
+                assert cursor != null;
+                cursor.close();
             }
         });
     }
@@ -140,10 +141,7 @@ public class BookRepository {
 
             @Override
             protected boolean shouldFetch(@Nullable List<Book> data) {
-                if (data == null) {
-                    return true;
-                }
-                return data.size() <= 0;
+                return data == null || data.size() <= 0;
             }
 
             @NonNull
@@ -153,6 +151,7 @@ public class BookRepository {
                 BookSearchResult bookSearchResult = new BookSearchResult(query, new ArrayList<>(), 0, 0);
                 Cursor c = bookProvider.query(Uri.parse("content://" + BookProvider.PROVIDER_NAME + "/bookSearch"), null, " bookQuery LIKE " + "'%" + query.substring(query.lastIndexOf(':') + 1) + "%'", null, null);
                 try {
+                    assert c != null;
                     while (c.moveToNext()) {
                         String googleBookId = c.getString(c.getColumnIndex(BookProvider.SEARCH_GOOGLE_BOOKS_ID));
                         int totalCount = c.getInt(c.getColumnIndex(BookProvider.TOTAL_COUNT));
@@ -161,6 +160,7 @@ public class BookRepository {
                         if (bookSearchResult.totalCount <= totalCount) {
                             bookSearchResult.totalCount = totalCount;
                         }
+                        //noinspection ConstantConditions
                         if (bookSearchResult.next <= index) {
                             bookSearchResult.next = index;
                         }
@@ -175,8 +175,8 @@ public class BookRepository {
                         ArrayList<Book> books = new ArrayList<>();
 
                         for (String _id : bookSearchResult.googleBookIds) {
-                            Cursor cursor = bookProvider.query(BookProvider.CONTENT_URI, null, " id = " + "'" +_id + "'", null, null);
-                            try {
+                            try (Cursor cursor = bookProvider.query(BookProvider.CONTENT_URI, null, " id = " + "'" + _id + "'", null, null)) {
+                                assert cursor != null;
                                 while (cursor.moveToNext()) {
                                     String id = cursor.getString(cursor.getColumnIndex(BookProvider._ID));
                                     String googleBookId = cursor.getString(cursor.getColumnIndex(BookProvider.GOOGLE_BOOK_ID));
@@ -188,11 +188,9 @@ public class BookRepository {
                                     Book book = new Book(id, googleBookId, new Book.VolumeInfo(title, description, new Book.VolumeInfo.ImageLinks(smallThumbnail, thumbnail)), favorite);
                                     books.add(book);
                                 }
-                            } finally {
-                                cursor.close();
                             }
                         }
-                        MutableLiveData<List<Book>> booksLiveData = new MutableLiveData<List<Book>>();
+                        MutableLiveData<List<Book>> booksLiveData = new MutableLiveData<>();
                         booksLiveData.setValue(books);
                         return booksLiveData;
                     }

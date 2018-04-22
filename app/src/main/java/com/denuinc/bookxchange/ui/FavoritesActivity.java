@@ -4,17 +4,19 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.denuinc.bookxchange.R;
-import com.denuinc.bookxchange.ui.common.NavigationController;
 
 import javax.inject.Inject;
 
 import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.support.HasSupportFragmentInjector;
+
+/**
+ * Created by Florian on 2/27/2018.
+ */
 
 public class FavoritesActivity extends AppCompatActivity  implements HasSupportFragmentInjector {
 

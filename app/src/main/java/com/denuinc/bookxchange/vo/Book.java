@@ -5,7 +5,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import com.google.gson.annotations.SerializedName;
-import java.io.Serializable;
 
 
 /**
@@ -23,7 +22,7 @@ public class Book implements Parcelable {
 
     public Book(String bookId,
                 String googleBookId,
-                VolumeInfo volumeInfo,
+                @NonNull VolumeInfo volumeInfo,
                 Boolean isFavorite) {
         this.bookId = bookId;
         this.googleBookId = googleBookId;
@@ -41,7 +40,7 @@ public class Book implements Parcelable {
         public final ImageLinks imageLinks;
         public VolumeInfo(String title,
                           String description,
-                          ImageLinks imageLinks) {
+                          @NonNull ImageLinks imageLinks) {
             this.title = title;
             this.description = description;
             this.imageLinks = imageLinks;
@@ -59,7 +58,7 @@ public class Book implements Parcelable {
                 this.thumbnail = thumbnail;
             }
 
-            protected ImageLinks(Parcel in) {
+            ImageLinks(Parcel in) {
                 smallThumbnail = in.readString();
                 thumbnail = in.readString();
             }
@@ -88,7 +87,7 @@ public class Book implements Parcelable {
             };
         }
 
-        protected VolumeInfo(Parcel in) {
+        VolumeInfo(Parcel in) {
             title = in.readString();
             description = in.readString();
             imageLinks = in.readParcelable(ImageLinks.class.getClassLoader());

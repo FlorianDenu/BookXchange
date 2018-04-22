@@ -8,19 +8,19 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="@dimen/app_bar_height"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbarLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:expandedTitleGravity="top|center"
             app:collapsedTitleGravity="top|center"
-            app:expandedTitleMarginTop="@dimen/margin_medium"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Small"
-            app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Medium">
+            app:expandedTitleGravity="top|center"
+            app:expandedTitleMarginTop="@dimen/margin_medium"
+            app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_scrollFlags="scroll|enterAlways">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -56,9 +56,9 @@
         android:elevation="@dimen/fab_rest_elevation"
         android:src="@drawable/ic_add_24dp"
         app:fabSize="auto"
-        app:pressedTranslationZ="@dimen/fab_pressed_elevation"
         app:layout_anchor="@id/fragment_container"
         app:layout_anchorGravity="bottom|end"
-        app:layout_behavior="com.denuinc.bookxchange.components.FloatActionButtonScroll" />
+        app:layout_behavior="com.denuinc.bookxchange.components.FloatActionButtonScroll"
+        app:pressedTranslationZ="@dimen/fab_pressed_elevation" />
 
 </android.support.design.widget.CoordinatorLayout>

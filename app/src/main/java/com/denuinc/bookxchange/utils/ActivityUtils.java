@@ -8,6 +8,10 @@ import android.os.Build;
 
 import com.denuinc.bookxchange.R;
 
+/**
+ * Created by Florian on 2/27/2018.
+ */
+
 public class ActivityUtils {
 
     private static ActivityUtils instance;

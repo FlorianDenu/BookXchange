@@ -2,12 +2,10 @@ package com.denuinc.bookxchange.ui;
 
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
-import android.databinding.DataBindingComponent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
@@ -17,11 +15,9 @@ import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.binding.FragmentDataBindingComponent;
-import com.denuinc.bookxchange.databinding.BookListFragmentBinding;
 import com.denuinc.bookxchange.databinding.FavoritesFragmentBinding;
 import com.denuinc.bookxchange.di.Injectable;
 import com.denuinc.bookxchange.ui.common.BookListAdapter;
@@ -32,6 +28,10 @@ import com.denuinc.bookxchange.vo.Book;
 import java.util.Objects;
 
 import javax.inject.Inject;
+
+/**
+ * Created by Florian on 2/27/2018.
+ */
 
 public class FavoritesFragment extends Fragment implements Injectable, BookListAdapter.BookClickCallback{
 

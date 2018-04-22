@@ -1,9 +1,7 @@
 package com.denuinc.bookxchange.di;
 
-import android.app.Application;
 
 import com.denuinc.bookxchange.api.GoogleBookService;
-import com.denuinc.bookxchange.db.BookProvider;
 import com.denuinc.bookxchange.utils.LiveDataCallAdapterFactory;
 
 import javax.inject.Singleton;

@@ -33,7 +33,6 @@ import com.denuinc.bookxchange.utils.AutoClearedValue;
 import com.denuinc.bookxchange.vo.Categories;
 import com.denuinc.bookxchange.vo.Category;
 
-import java.util.List;
 import java.util.Objects;
 
 import javax.inject.Inject;

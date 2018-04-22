@@ -22,7 +22,7 @@ public class Resource<T> {
     @Nullable
     public final T data;
 
-    public Resource(@NonNull Status status, @Nullable T data, @Nullable String message) {
+    private Resource(@NonNull Status status, @Nullable T data, @Nullable String message) {
         this.status = status;
         this.data = data;
         this.message = message;
@@ -51,13 +51,7 @@ public class Resource<T> {
 
         Resource<?> resource = (Resource<?>) o;
 
-        if (status != resource.status) {
-            return false;
-        }
-        if (message != null ? !message.equals(resource.message) : resource.message != null) {
-            return false;
-        }
-        return data != null ? data.equals(resource.data) : resource.data == null;
+        return status == resource.status && (message != null ? message.equals(resource.message) : resource.message == null) && (data != null ? data.equals(resource.data) : resource.data == null);
     }
 
     @Override

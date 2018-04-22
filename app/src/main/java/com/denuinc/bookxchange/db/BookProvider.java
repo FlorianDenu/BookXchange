@@ -14,9 +14,13 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import android.util.Log;
 
 import java.util.HashMap;
+import java.util.Objects;
+
+/**
+ * Created by Florian on 2/27/2018.
+ */
 
 public class BookProvider extends ContentProvider {
 
@@ -76,6 +80,11 @@ public class BookProvider extends ContentProvider {
 
     public BookProvider() { }
 
+    @SuppressWarnings("unused")
+    public static void setBookProjectionMap(HashMap<String, String> bookProjectionMap) {
+        BOOK_PROJECTION_MAP = bookProjectionMap;
+    }
+
     private static class DatabaseHelper extends SQLiteOpenHelper {
         DatabaseHelper(Context context){
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -113,8 +122,6 @@ public class BookProvider extends ContentProvider {
                 break;
             case BOOK_ID:
                 qb.setTables(BOOK_TABLE_NAME);
-//                qb.appendWhere(_ID + "=" + uri.getPathSegments().get(0));
-
                 break;
             case SEARCH:
                 qb.setTables(BOOK_SEARCH_TABLE_NAME);
@@ -124,7 +131,7 @@ public class BookProvider extends ContentProvider {
         }
 
         Cursor cursor = qb.query(db, projection, selection, selectionArgs, null, null, sortOrder);
-        cursor.setNotificationUri(getContext().getContentResolver(), uri);
+        cursor.setNotificationUri(Objects.requireNonNull(getContext()).getContentResolver(), uri);
         return cursor;
     }
 
@@ -146,7 +153,7 @@ public class BookProvider extends ContentProvider {
     @Nullable
     @Override
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues values) {
-        long rowId = 0;
+        long rowId;
         if (uriMatcher.match(uri) == SEARCH) {
             rowId = db.insert (BOOK_SEARCH_TABLE_NAME, "", values);
         } else {
@@ -155,7 +162,7 @@ public class BookProvider extends ContentProvider {
 
         if (rowId > 0 ) {
             Uri _uri = ContentUris.withAppendedId(CONTENT_URI, rowId);
-            getContext().getContentResolver().notifyChange(uri, null);
+            Objects.requireNonNull(getContext()).getContentResolver().notifyChange(uri, null);
             return _uri;
         }
 
@@ -164,7 +171,7 @@ public class BookProvider extends ContentProvider {
 
     @Override
     public int delete(@NonNull Uri uri, @Nullable String selection, @Nullable String[] selectionArgs) {
-        int count = 0;
+        int count;
         switch (uriMatcher.match(uri)) {
             case BOOK:
                 count = db.delete(BOOK_TABLE_NAME, selection, selectionArgs);
@@ -179,20 +186,20 @@ public class BookProvider extends ContentProvider {
                 default:
                     throw new IllegalArgumentException("Unknown URI " + uri);
         }
-        getContext().getContentResolver().notifyChange(uri, null);
+        Objects.requireNonNull(getContext()).getContentResolver().notifyChange(uri, null);
         return count;
     }
 
     @Override
     public int update(@NonNull Uri uri, @Nullable ContentValues values, @Nullable String selection, @Nullable String[] selectionArgs) {
-        int count = 0;
+        int count;
         switch (uriMatcher.match(uri)) {
             case BOOK:
                 count = db.update(BOOK_TABLE_NAME, values, selection, selectionArgs);
                 break;
 
             case BOOK_ID:
-                count = db.update(BOOK_TABLE_NAME, values, _ID + " = " + uri.getPathSegments().get(1) +
+                db.update(BOOK_TABLE_NAME, values, _ID + " = " + uri.getPathSegments().get(1) +
                                 (!TextUtils.isEmpty(selection) ? " AND (" +selection + ')' : ""), selectionArgs);
             case SEARCH:
                 count = db.update(BOOK_SEARCH_TABLE_NAME, values, selection, selectionArgs);
@@ -201,6 +208,6 @@ public class BookProvider extends ContentProvider {
                 throw new IllegalArgumentException("Unknown URI " + uri );
         }
 
-        getContext().getContentResolver().notifyChange(uri, null);
+        Objects.requireNonNull(getContext()).getContentResolver().notifyChange(uri, null);
         return count; }
 }

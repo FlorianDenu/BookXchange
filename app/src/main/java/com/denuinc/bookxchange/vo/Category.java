@@ -10,7 +10,7 @@ public class Category {
     private int descriptionId;
     private String search;
 
-    public Category(int imageId, int descriptionId, String search) {
+    Category(int imageId, int descriptionId, String search) {
         this.imageId = imageId;
         this.descriptionId = descriptionId;
         this.search = search;
@@ -20,6 +20,7 @@ public class Category {
         return imageId;
     }
 
+    @SuppressWarnings("unused")
     public void setImageId(int imageId) {
         this.imageId = imageId;
     }
@@ -28,6 +29,7 @@ public class Category {
         return descriptionId;
     }
 
+    @SuppressWarnings("unused")
     public void setDescriptionId(int descriptionId) {
         this.descriptionId = descriptionId;
     }

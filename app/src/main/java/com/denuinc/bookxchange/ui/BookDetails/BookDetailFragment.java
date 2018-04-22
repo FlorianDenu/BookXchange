@@ -1,7 +1,6 @@
 package com.denuinc.bookxchange.ui.BookDetails;
 
 import android.arch.lifecycle.ViewModelProvider;
-import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,12 +13,15 @@ import android.view.ViewGroup;
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.binding.FragmentDataBindingComponent;
 import com.denuinc.bookxchange.databinding.BookDetailFragmentBinding;
-import com.denuinc.bookxchange.databinding.FavoritesFragmentBinding;
 import com.denuinc.bookxchange.di.Injectable;
 import com.denuinc.bookxchange.utils.AutoClearedValue;
 import com.denuinc.bookxchange.vo.Book;
 
 import javax.inject.Inject;
+
+/**
+ * Created by Florian on 2/27/2018.
+ */
 
 public class BookDetailFragment extends Fragment implements Injectable {
 
@@ -46,7 +48,8 @@ public class BookDetailFragment extends Fragment implements Injectable {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         Bundle bundle = getArguments();
-        Book book = (Book) bundle.getParcelable(BOOK_EXTRA);
+        assert bundle != null;
+        Book book = bundle.getParcelable(BOOK_EXTRA);
         binding.get().setBook(book);
     }
 }

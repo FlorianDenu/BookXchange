@@ -4,49 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.denuinc.bookxchange.vo.Book"/>
-        <import type="java.util.List"/>
-        <import type="com.denuinc.bookxchange.vo.Status"/>
-        <import type="com.denuinc.bookxchange.vo.Resource"/>
-        <variable name="totalItems" type="int"/>
-        <variable name="query" type="String"/>
-        <variable name="loadingMore" type="boolean"/>
-        <variable name="searchResource" type="Resource"/>
-        <variable name="callback" type="com.denuinc.bookxchange.ui.common.RetryCallback"/>
+
+        <import type="com.denuinc.bookxchange.vo.Book" />
+
+        <import type="java.util.List" />
+
+        <import type="com.denuinc.bookxchange.vo.Status" />
+
+        <import type="com.denuinc.bookxchange.vo.Resource" />
+
+        <variable
+            name="totalItems"
+            type="int" />
+
+        <variable
+            name="query"
+            type="String" />
+
+        <variable
+            name="loadingMore"
+            type="boolean" />
+
+        <variable
+            name="searchResource"
+            type="Resource" />
+
+        <variable
+            name="callback"
+            type="com.denuinc.bookxchange.ui.common.RetryCallback" />
     </data>
 
     <RelativeLayout
         android:id="@+id/list_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#C8E6C9">
+        android:background="@color/primaryLight">
 
+        <!--suppress AndroidDomInspection -->
         <android.support.v7.widget.RecyclerView
             android:id="@+id/book_list"
-            app:layoutManager="LinearLayoutManager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/book_item"/>
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/book_item" />
 
         <com.wang.avi.AVLoadingIndicatorView
             android:id="@+id/avi"
-            app:visibleGone="@{searchResource.data == null}"
+            style="@style/AVLoadingIndicatorView.Large"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/AVLoadingIndicatorView.Large"
+            android:layout_centerInParent="true"
             android:visibility="visible"
-            app:indicatorName="BallSpinFadeLoaderIndicator"
             app:indicatorColor="@color/colorAccent"
-            android:layout_centerInParent="true"/>
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:visibleGone="@{searchResource.data == null}" />
 
         <ImageView
             android:id="@+id/image_view_empty"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            app:visibleGone="@{searchResource.status == Status.SUCCESS &amp;&amp; totalItems == 0}"
-            android:src="@drawable/wow_such_empty"
+            android:layout_width="@dimen/empty_image_size"
+            android:layout_height="@dimen/empty_image_size"
+            android:layout_centerInParent="true"
             android:scaleType="fitCenter"
-            android:layout_centerInParent="true"/>
+            android:src="@drawable/wow_such_empty"
+            app:visibleGone="@{searchResource.status == Status.SUCCESS &amp;&amp; totalItems == 0}" />
 
     </RelativeLayout>
 

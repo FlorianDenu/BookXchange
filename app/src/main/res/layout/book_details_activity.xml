@@ -8,7 +8,7 @@
     <FrameLayout
         android:id="@+id/book_details_fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -21,17 +21,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:elevation="@dimen/fab_rest_elevation"
-            android:src="@drawable/ic_add_24dp"/>
+            android:src="@drawable/ic_add_24dp" />
 
         <TextView
             android:id="@+id/tv_email"
             style="@style/EmailStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/fab"
-            android:layout_marginLeft="@dimen/margin_medium"
             android:layout_centerVertical="true"
-            android:text="@string/personal_email_address"/>
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_toEndOf="@id/fab"
+            android:text="@string/personal_email_address" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

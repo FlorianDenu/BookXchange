@@ -5,7 +5,48 @@
       <map>
         <entry key="imageWizard">
           <value>
-            <PersistentState />
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="imageAssetPanel">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="launcher">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="71" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="foregroundImage" value="$PROJECT_DIR$/app/src/main/res/drawable/app_widget.png" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
           </value>
         </entry>
         <entry key="vectorWizard">
@@ -33,8 +74,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_email" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/chef.psd" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_app_2" />
+                            <entry key="sourceFile" value="$PROJECT_DIR$/app/src/main/res/drawable/app 2.psd" />
                           </map>
                         </option>
                       </PersistentState>

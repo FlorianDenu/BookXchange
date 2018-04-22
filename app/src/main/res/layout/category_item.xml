@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
         <variable
             name="category"
             type="com.denuinc.bookxchange.vo.Category" />
+
         <variable
             name="position"
             type="int" />
@@ -17,12 +19,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_medium"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             android:id="@+id/image_category"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/category_image_size"
+            android:layout_height="@dimen/category_image_size"
+            android:contentDescription="@string/category"
             android:elevation="@dimen/category_elevation"
             app:imageId="@{category.imageId}" />
 

@@ -3,7 +3,6 @@ package com.denuinc.bookxchange.di;
 import android.app.Application;
 
 import com.denuinc.bookxchange.BookXchangeApp;
-import com.denuinc.bookxchange.widget.FetchDataService;
 
 import javax.inject.Singleton;
 
@@ -14,6 +13,7 @@ import dagger.android.AndroidInjectionModule;
 /**
  * Created by Florian on 2/27/2018.
  */
+
 @Singleton
 @Component(modules = {
         AndroidInjectionModule.class,

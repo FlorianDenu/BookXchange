@@ -2,7 +2,6 @@ package com.denuinc.bookxchange.ui.common;
 
 import android.databinding.DataBindingComponent;
 import android.databinding.DataBindingUtil;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 

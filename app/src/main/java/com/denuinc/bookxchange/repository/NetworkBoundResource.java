@@ -50,6 +50,7 @@ public abstract class NetworkBoundResource<ResultType, RequestType> {
         result.addSource(apiResponse, response -> {
             result.removeSource(apiResponse);
             result.removeSource(dbSource);
+            assert response != null;
             if (response.isSuccessful()) {
                 appExecutors.diskIO().execute(() -> {
                     saveCallResult(processResponse(response));
@@ -66,7 +67,7 @@ public abstract class NetworkBoundResource<ResultType, RequestType> {
         });
     }
 
-    protected void onFetchFailed() {
+    private void onFetchFailed() {
     }
 
     public LiveData<Resource<ResultType>> asLiveData() {

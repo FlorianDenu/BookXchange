@@ -1,19 +1,11 @@
 package com.denuinc.bookxchange.ui.BookDetails;
 
-import android.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.SearchView;
 
 import com.denuinc.bookxchange.R;
 import com.denuinc.bookxchange.utils.ActivityUtils;
@@ -24,6 +16,10 @@ import javax.inject.Inject;
 import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.support.HasSupportFragmentInjector;
+
+/**
+ * Created by Florian on 2/27/2018.
+ */
 
 public class BookDetailsActivity extends AppCompatActivity implements HasSupportFragmentInjector {
 

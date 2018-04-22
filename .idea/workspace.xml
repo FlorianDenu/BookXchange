@@ -10,21 +10,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1bf0984-b694-4f50-9aaf-1af5fa86c336" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_common_1_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/com.denuinc.bookxchange.db.BookXchangeDB/8.json" afterPath="$PROJECT_DIR$/app/schemas/com.denuinc.bookxchange.db.BookXchangeDB/8.json" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/BookXchangeApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/BookXchangeApp.java" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/db/BookDaoTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/db/BookDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/db/DBTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/ui/ListOfBookFragmentTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/ui/ListOfBookFragmentTest.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/utils/TestUtils.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/utils/TestUtils.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/AppExecutors.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/AppExecutors.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/SingleLiveEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/SingleLiveEvent.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/ApiResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/ApiResponse.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/BookSearchResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/BookSearchResponse.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookDao.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeDB.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeDB.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/GoogleBookService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/GoogleBookService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/FragmentBindingAdapters.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/FragmentBindingAdapters.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/components/FloatActionButtonScroll.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/components/FloatActionButtonScroll.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeDB.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeTypeConverters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppModule.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookDetailsActivityModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookDetailsActivityModule.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookListActivityModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookListActivityModule.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FavoritesActivityModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FavoritesActivityModule.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceModule.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FragmentBuildersModule.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FragmentBuildersModule.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/BookRepository.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/BookRepository.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java" />
@@ -32,12 +61,59 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BooksViewModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BooksViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/CategoriesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/CategoriesFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/BookListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/BookListAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CenterLayoutManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CenterLayoutManager.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundListAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundViewHolder.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/ListOfBookItemDecoration.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/ListOfBookItemDecoration.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/NavigationController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/NavigationController.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/ActivityUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/ActivityUtils.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/AutoClearedValue.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/AutoClearedValue.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapterFactory.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapterFactory.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/Objects.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/Objects.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/RateLimiter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/viewmodel/BookxChangeViewModelFactory.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/viewmodel/BookxChangeViewModelFactory.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Book.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Book.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/BookSearchResult.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/BookSearchResult.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Categories.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Categories.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Category.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Category.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Resource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Resource.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/example_appwidget_preview.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorites.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorites.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_book_list_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_book_list_activity.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_detail_fragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_detail_fragment.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_details_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_details_activity.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_item.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_list_fragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_list_fragment.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_widget.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_widget.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/categories_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/categories_layout.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/category_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/category_item.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/favorites_fragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/favorites_fragment.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_book_list_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_book_list_activity.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/widget_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_item.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_book_list_acitivty_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_book_list_acitivty_drawer.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/book_widget_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/book_widget_info.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,51 +141,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookWidget.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FetchDataService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackWidgetService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-              <folding>
-                <element signature="e#2439#2440#0" expanded="true" />
-                <element signature="e#2478#2479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDetailsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,12 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Resourcw</find>
-      <find>onCreateViewHolder</find>
-      <find>bind</find>
-      <find>isScrooled</find>
-      <find>mok</find>
-      <find>mock</find>
       <find>navigationController</find>
       <find>ok</find>
       <find>BookListFragment</find>
@@ -154,6 +180,12 @@
       <find>serea</find>
       <find>Serializable</find>
       <find>StackW</find>
+      <find>stringToListOfString</find>
+      <find>TestUtils.createBook</find>
+      <find>TestApp</find>
+      <find>BookXchangeTestRunner</find>
+      <find>retry</find>
+      <find>RetryCallback</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2295,57 +2327,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/font/widget_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidgetModul.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceComponent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/drawable_border.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_widget.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/drop_shadow.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/widget_background.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/widget_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FragmentBuildersModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookDetailsActivityModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/book_detail_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/book_list_acitivty.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_details_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_book_list_acitivty_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_list_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_detail_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_book_list_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/ActivityUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/DatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/BookSearchResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/BookSearchResult.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookDao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeDB.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookProviderModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/BookXchangeApp.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Categories.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BooksViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/BookRepository.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Book.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/BookListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/ListOfBookItemDecoration.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/NavigationController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/CategoriesFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/AutoClearedValue.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapterFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/Objects.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/viewmodel/BookxChangeViewModelFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Book.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Category.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Categories.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Resource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/AppExecutors.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/SingleLiveEvent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_favorites.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_book_list_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_detail_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_details_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/book_widget.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/categories_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/category_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/favorites_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_book_list_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/widget_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_book_list_acitivty_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/book_widget_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/ApiResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookDetailsActivityModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FavoritesActivityModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CenterLayoutManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/ActivityUtils.java" />
       </list>
     </option>
   </component>
@@ -2477,6 +2509,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -2500,42 +2535,6 @@
               <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="bookxchange" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="bookxchange" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="bookxchange" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="BookXchange" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -2558,6 +2557,24 @@
             <path>
               <item name="BookXchange" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookXchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookXchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookXchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookXchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookXchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookXchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookXchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2612,81 +2629,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Android App.app">
-    <configuration name="ApiResponseTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.denuinc.bookxchange.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.denuinc.bookxchange.api" />
-      <option name="MAIN_CLASS_NAME" value="com.denuinc.bookxchange.api.ApiResponseTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/app" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ApiResponseTest.success" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.denuinc.bookxchange.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.denuinc.bookxchange.api" />
-      <option name="MAIN_CLASS_NAME" value="com.denuinc.bookxchange.api.ApiResponseTest" />
-      <option name="METHOD_NAME" value="success" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/app" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GoogleBookServiceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.denuinc.bookxchange.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.denuinc.bookxchange.api" />
-      <option name="MAIN_CLASS_NAME" value="com.denuinc.bookxchange.api.GoogleBookServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/app" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2755,11 +2697,55 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
     </configuration>
-    <configuration name="changeCategory()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="changeCategory" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.denuinc.bookxchange.db.BookDaoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+    </configuration>
+    <configuration name="ListOfBookFragmentTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="com.denuinc.bookxchange.ui.ListOfBookFragmentTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -2799,11 +2785,99 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
     </configuration>
-    <configuration name="error()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="delete()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="error" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="CLASS_NAME" value="com.denuinc.bookxchange.db.BookDaoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+    </configuration>
+    <configuration name="insertAndRead()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="insertAndRead" />
+      <option name="CLASS_NAME" value="com.denuinc.bookxchange.db.BookDaoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+    </configuration>
+    <configuration name="search()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="search" />
       <option name="CLASS_NAME" value="com.denuinc.bookxchange.ui.ListOfBookFragmentTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -2926,19 +3000,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="Android Instrumented Tests.error()" />
-      <item index="2" class="java.lang.String" itemvalue="Android Instrumented Tests.changeCategory()" />
-      <item index="3" class="java.lang.String" itemvalue="Android JUnit.ApiResponseTest" />
-      <item index="4" class="java.lang.String" itemvalue="Android JUnit.ApiResponseTest.success" />
-      <item index="5" class="java.lang.String" itemvalue="Android JUnit.GoogleBookServiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="Android Instrumented Tests.insertAndRead()" />
+      <item index="2" class="java.lang.String" itemvalue="Android Instrumented Tests.ListOfBookFragmentTest" />
+      <item index="3" class="java.lang.String" itemvalue="Android Instrumented Tests.BookDaoTest" />
+      <item index="4" class="java.lang.String" itemvalue="Android Instrumented Tests.delete()" />
+      <item index="5" class="java.lang.String" itemvalue="Android Instrumented Tests.search()" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android JUnit.GoogleBookServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="Android JUnit.ApiResponseTest" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.ApiResponseTest.success" />
-        <item index="3" class="java.lang.String" itemvalue="Android Instrumented Tests.changeCategory()" />
-        <item index="4" class="java.lang.String" itemvalue="Android Instrumented Tests.error()" />
+        <item index="0" class="java.lang.String" itemvalue="Android Instrumented Tests.ListOfBookFragmentTest" />
+        <item index="1" class="java.lang.String" itemvalue="Android Instrumented Tests.search()" />
+        <item index="2" class="java.lang.String" itemvalue="Android Instrumented Tests.BookDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="Android Instrumented Tests.delete()" />
+        <item index="4" class="java.lang.String" itemvalue="Android Instrumented Tests.insertAndRead()" />
       </list>
     </recent_temporary>
   </component>
@@ -2959,34 +3033,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiResponseTest - 2018.04.14 at 13h 53m 44s.xml">
-      <configuration name="ApiResponseTest" configurationId="AndroidJUnit" />
+    <history-entry file="BookDaoTest - 2018.04.22 at 16h 41m 50s.xml">
+      <configuration name="BookDaoTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ApiResponseTest - 2018.04.14 at 13h 55m 39s.xml">
-      <configuration name="ApiResponseTest" configurationId="AndroidJUnit" />
+    <history-entry file="ListOfBookFragmentTest - 2018.04.22 at 16h 43m 25s.xml">
+      <configuration name="ListOfBookFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ApiResponseTest - 2018.04.14 at 13h 56m 01s.xml">
-      <configuration name="ApiResponseTest" configurationId="AndroidJUnit" />
+    <history-entry file="ListOfBookFragmentTest - 2018.04.22 at 16h 47m 58s.xml">
+      <configuration name="ListOfBookFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ApiResponseTest_success - 2018.04.14 at 13h 54m 33s.xml">
-      <configuration name="ApiResponseTest.success" configurationId="AndroidJUnit" />
+    <history-entry file="ListOfBookFragmentTest - 2018.04.22 at 16h 48m 23s.xml">
+      <configuration name="ListOfBookFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="GoogleBookServiceTest - 2018.04.14 at 14h 41m 16s.xml">
-      <configuration name="GoogleBookServiceTest" configurationId="AndroidJUnit" />
+    <history-entry file="ListOfBookFragmentTest - 2018.04.22 at 16h 48m 31s.xml">
+      <configuration name="ListOfBookFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="changeCategory() - 2018.04.14 at 13h 50m 17s.xml">
-      <configuration name="changeCategory()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="search() - 2018.04.22 at 16h 44m 03s.xml">
+      <configuration name="search()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="changeCategory() - 2018.04.14 at 13h 53m 00s.xml">
-      <configuration name="changeCategory()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="search() - 2018.04.22 at 16h 45m 36s.xml">
+      <configuration name="search()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="error() - 2018.04.14 at 13h 43m 33s.xml">
-      <configuration name="error()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="search() - 2018.04.22 at 16h 46m 26s.xml">
+      <configuration name="search()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="error() - 2018.04.14 at 13h 45m 27s.xml">
-      <configuration name="error()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="search() - 2018.04.22 at 16h 47m 13s.xml">
+      <configuration name="search()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="search() - 2018.04.14 at 13h 42m 27s.xml">
+    <history-entry file="search() - 2018.04.22 at 16h 47m 34s.xml">
       <configuration name="search()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
@@ -3001,7 +3075,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-73" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3011,21 +3084,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32359082" sideWeight="0.5042598" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32328483" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34199584" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23855165" sideWeight="0.49433428" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25675675" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743344" sideWeight="0.49433428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41476092" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3042,63 +3115,85 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="298" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="299" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java</url>
-          <line>70</line>
+          <line>97</line>
           <properties />
-          <option name="timeStamp" value="300" />
+          <option name="timeStamp" value="308" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>75</line>
+          <line>77</line>
           <properties />
-          <option name="timeStamp" value="301" />
+          <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>159</line>
           <properties />
-          <option name="timeStamp" value="302" />
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/db/BookDaoTest.java</url>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="303" />
+          <option name="timeStamp" value="313" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/denuinc/bookxchange/db/BookDaoTest.java</url>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="304" />
+          <option name="timeStamp" value="314" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java</url>
-          <line>85</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>108</line>
           <properties />
-          <option name="timeStamp" value="305" />
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="320" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="306" />
+      <option name="time" value="322" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getContext()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dbHelper</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>cursor.getCount()</expression-string>
         <language-id>JAVA</language-id>
@@ -3134,169 +3229,72 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>Uri.parse(BookProvider.PROVIDER_NAME + &quot;/bookSearch&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>uriMatcher.match(uri)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/database/sqlite/SQLiteOpenHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/denuinc/bookxchange/ui/BooksViewModel_Factory.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.14.1/a1bfd95c0c92a91c7cbb3528c3e118cd76c75174/dagger-2.14.1-sources.jar!/dagger/internal/DoubleCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_book_list_acitivty_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="504" column="20" lean-forward="false" selection-start-line="504" selection-start-column="20" selection-end-line="504" selection-end-column="20" />
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="6226" column="0" lean-forward="false" selection-start-line="6226" selection-start-column="0" selection-end-line="6226" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/BookXchangeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/denuinc/bookxchange/repository/BookRepository_Factory.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookXchangeDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/viewmodel/BookxChangeViewModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="e#7914#7915#0" expanded="false" />
-            <element signature="e#7970#7971#0" expanded="false" />
-            <element signature="e#8175#8176#0" expanded="false" />
-            <element signature="e#8203#8204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="126" lean-forward="false" selection-start-line="27" selection-start-column="126" selection-end-line="27" selection-end-column="126" />
-          <folding>
-            <element signature="e#376#392#0" expanded="false" />
-            <element signature="e#467#493#0" expanded="false" />
-            <element signature="e#584#612#0" expanded="false" />
-            <element signature="e#707#734#0" expanded="false" />
-            <element signature="e#824#854#0" expanded="false" />
-            <element signature="e#941#959#0" expanded="false" />
-            <element signature="e#1051#1068#0" expanded="false" />
-            <element signature="e#1159#1179#0" expanded="false" />
-            <element signature="e#1270#1298#0" expanded="false" />
-            <element signature="e#1389#1419#0" expanded="false" />
-            <element signature="e#1518#1549#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/os/MessageQueue.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/book_list_acitivty.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/net/Uri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="437" column="0" lean-forward="false" selection-start-line="437" selection-start-column="0" selection-end-line="437" selection-end-column="0" />
-          <folding>
-            <element signature="e#15428#15429#0" expanded="false" />
-            <element signature="e#23015#23016#0" expanded="false" />
-            <element signature="e#23055#23056#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/BindingAdapters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/BookSearchResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/searchable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/book_widget_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#244#270#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/ApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="256">
+          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -3304,21 +3302,324 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/GoogleBookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/api/BookSearchResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/FragmentBindingAdapters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/FragmentDataBindingComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/binding/BindingAdapters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/components/FloatActionButtonScroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookDetailsActivityModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/AppInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/ViewModelModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/ViewModelKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/Injectable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FragmentBuildersModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FetchDataServiceModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/FavoritesActivityModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/di/BookListActivityModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/RetryCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/NavigationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/ListOfBookItemDecoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CenterLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CategoryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/BookListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/CategoriesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1031">
+          <caret line="91" column="10" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BooksViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/LiveDataCallAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3332,249 +3633,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/ActivityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/utils/AbsentLiveData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/DataBoundListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-797">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CenterLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/CategoryAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/common/BookListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/viewmodel/BookxChangeViewModelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/android/arch/lifecycle/MutableLiveData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#1042#1043#0" expanded="false" />
-            <element signature="e#1079#1080#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/NetworkBoundResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="76" column="41" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/content/ContentProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="357" column="0" lean-forward="false" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/content/ContentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1661" column="21" lean-forward="false" selection-start-line="1661" selection-start-column="21" selection-end-line="1661" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="763" column="0" lean-forward="false" selection-start-line="763" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/db/BookProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#3247#3248#0" expanded="false" />
-            <element signature="e#3324#3325#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/FavoritesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/FetchNextPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-          <folding>
-            <element signature="e#4651#4652#0" expanded="false" />
-            <element signature="e#4682#4683#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BooksViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1904#1905#0" expanded="false" />
-            <element signature="e#1954#1955#0" expanded="false" />
-            <element signature="e#1986#1987#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="75" column="163" lean-forward="false" selection-start-line="75" selection-start-column="163" selection-end-line="75" selection-end-column="163" />
-          <folding>
-            <element signature="e#1997#1998#0" expanded="false" />
-            <element signature="e#2029#2030#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/AppExecutors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/vo/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1052">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/widget_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/ui/BookDetails/BookDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/FetchDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/StackWidgetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/denuinc/bookxchange/widget/BookWidget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

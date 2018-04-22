@@ -9,10 +9,8 @@ import com.denuinc.bookxchange.ui.BookListActivity;
 import com.denuinc.bookxchange.ui.BookListFragment;
 import com.denuinc.bookxchange.ui.CategoriesFragment;
 import com.denuinc.bookxchange.ui.FavoritesActivity;
-import com.denuinc.bookxchange.ui.FavoritesFragment;
 
 import javax.inject.Inject;
-import javax.inject.Singleton;
 
 /**
  * Created by Florian on 3/6/2018.

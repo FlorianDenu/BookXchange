@@ -24,17 +24,19 @@ public class BookSearchResponse {
         return total;
     }
 
+    @SuppressWarnings("unused")
     public void setTotal(int total) {
         this.total = total;
     }
 
     public List<Book> getItems() {
         if (items == null) {
-            return new ArrayList<Book>();
+            return new ArrayList<>();
         }
         return items;
     }
 
+    @SuppressWarnings("unused")
     public void setItems(List<Book> items) {
         this.items = items;
     }
@@ -51,7 +53,7 @@ public class BookSearchResponse {
     public List<String> getBookIds() {
         List<String> bookIds = new ArrayList<>();
         if (items == null) {
-            return new ArrayList<String>();
+            return new ArrayList<>();
         }
         for (Book book : items) {
             bookIds.add(book.googleBookId);

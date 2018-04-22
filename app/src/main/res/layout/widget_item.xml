@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/widget_background"
-    android:id="@+id/click_widget">
+    android:id="@+id/click_item">
 
 
     <ImageView
         android:id="@+id/widget_image_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/widget_item" />
 </FrameLayout>
