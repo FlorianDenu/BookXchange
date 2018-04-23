@@ -67,4 +67,10 @@ public class BookDetailsActivity extends AppCompatActivity implements HasSupport
                 return super.onOptionsItemSelected(item);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        NavUtils.navigateUpFromSameTask(this);
+    }
 }

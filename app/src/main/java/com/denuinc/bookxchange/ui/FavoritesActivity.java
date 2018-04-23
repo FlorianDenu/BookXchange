@@ -53,4 +53,10 @@ public class FavoritesActivity extends AppCompatActivity  implements HasSupportF
                 return super.onOptionsItemSelected(item);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        NavUtils.navigateUpFromSameTask(this);
+    }
 }

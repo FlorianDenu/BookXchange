@@ -48,6 +48,7 @@ import dagger.android.support.HasSupportFragmentInjector;
 public class BookListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, HasSupportFragmentInjector, OnCategorieSelectedListener, SearchView.OnQueryTextListener {
 
+
     @Inject
     DispatchingAndroidInjector<Fragment> dispatchingAndroidInjector;
     @Inject
@@ -81,9 +82,8 @@ public class BookListActivity extends AppCompatActivity
 
         if (savedInstanceState == null) {
             bookListFragment = new BookListFragment();
-            BookXchangeApp analyticsApplication = (BookXchangeApp) getApplication();
-            this.tracker = analyticsApplication.getDefaultTracker();
         } else {
+
             bookListFragment = (BookListFragment) getSupportFragmentManager().findFragmentByTag(BookListFragment.TAG);
         }
         navigationController.navigateToBookList(bookListFragment);
@@ -92,6 +92,16 @@ public class BookListActivity extends AppCompatActivity
         AdView adView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+
+        if (tracker == null) {
+            BookXchangeApp analyticsApplication = (BookXchangeApp) getApplication();
+            this.tracker = analyticsApplication.getDefaultTracker();
+        }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
 
     }
 
